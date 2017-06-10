@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Security Advisories - Redmine</title>
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="tjVpQUb+jYvpcSlavjCSA6OkuE/x8wBUDGZNt6ANXTo=" name="csrf-token" />
+<link rel='shortcut icon' href='/favicon.ico?1322400152' />
+<link href="/stylesheets/jquery/jquery-ui-1.9.2.css?1357736700" media="all" rel="stylesheet" type="text/css" />
+<link href="/themes/redmine/stylesheets/application.css?1361112893" media="all" rel="stylesheet" type="text/css" />
+
+<script src="/javascripts/jquery-1.8.3-ui-1.9.2-ujs-2.0.3.js?1357736700" type="text/javascript"></script>
+<script src="/javascripts/application.js?1396109606" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(window).load(function(){ warnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+
+
+<!-- page specific tags -->
+</head>
+<body class="theme-Redmine project-redmine controller-wiki action-show">
+<div id="wrapper">
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a href="/login" class="login">Sign in</a></li>
+<li><a href="/account/register" class="register">Register</a></li></ul>    </div>
+    
+    <ul><li><a href="/" class="home">Home</a></li>
+<li><a href="/projects" class="projects">Projects</a></li>
+<li><a href="http://www.redmine.org/guide" class="help">Help</a></li></ul></div>
+
+<div id="header">
+    <div id="quick-search">
+        <form accept-charset="UTF-8" action="/projects/redmine/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <input name="wiki_pages" type="hidden" value="1" />
+        <label for='q'>
+          <a href="/projects/redmine/search" accesskey="4">Search</a>:
+        </label>
+        <input accesskey="f" class="small" id="q" name="q" size="20" type="text" />
+</form>        
+    </div>
+
+    <h1>Redmine</h1>
+
+    <div id="main-menu">
+        <ul><li><a href="/projects/redmine" class="overview">Overview</a></li>
+<li><a href="/projects/redmine/wiki/Download" class="download">Download</a></li>
+<li><a href="/projects/redmine/activity" class="activity">Activity</a></li>
+<li><a href="/projects/redmine/roadmap" class="roadmap">Roadmap</a></li>
+<li><a href="/projects/redmine/issues" class="issues">Issues</a></li>
+<li><a href="/projects/redmine/news" class="news">News</a></li>
+<li><a href="/projects/redmine/wiki" class="wiki selected">Wiki</a></li>
+<li><a href="/projects/redmine/boards" class="boards">Forums</a></li>
+<li><a href="/projects/redmine/repository" class="repository">Repository</a></li></ul>
+    </div>
+</div>
+
+<div id="main" class="">
+    <div id="sidebar">
+            <a name="Latest-releases"></a>
+<h3 >Latest releases<a href="#Latest-releases" class="wiki-anchor">&para;</a></h3>
+
+
+	<p><a href="/projects/redmine/wiki/Download" class="wiki-page">3.3.3 (2017-04-09)</a><br /><a href="/projects/redmine/wiki/Download" class="wiki-page">3.2.6 (2017-04-09)</a></p>
+
+
+	<a name="Resources"></a>
+<h3 >Resources<a href="#Resources" class="wiki-anchor">&para;</a></h3>
+
+
+	<p><a href="/projects/redmine/wiki/Guide" class="wiki-page">User's Guide</a>, <a href="/projects/redmine/wiki/PrivacyPolicy" class="wiki-page">Privacy Policy</a><br /><a href="/projects/redmine/wiki/Developer_Guide" class="wiki-page">Developer's Guide</a><br /><a href="/projects/redmine/wiki/Changelog" class="wiki-page">Changelog</a>, <a href="/projects/redmine/wiki/Security_Advisories" class="wiki-page">Security</a><br /><a href="/projects/redmine/wiki/FAQ" class="wiki-page">FAQ</a>, <a href="/projects/redmine/wiki/HowTos" class="wiki-page">HowTo's</a><br /><a href="/plugins">Plugins</a>, <a href="/projects/redmine/wiki/Theme_List" class="wiki-page">Themes</a></p>
+
+<h3>Wiki</h3>
+<ul>
+  <li><a href="/">Start page</a></li>
+  <li><a href="/projects/redmine/wiki/index">Index by title</a></li>
+  <li><a href="/projects/redmine/wiki/date_index">Index by date</a></li>
+</ul>
+
+		<br />
+		<script type="text/javascript"><!--
+		google_ad_client = "pub-0447284344517370";
+		google_alternate_color = "FFFFFF";
+		google_ad_width = 160;
+		google_ad_height = 600;
+		google_ad_format = "160x600_as";
+		google_ad_type = "text_image";
+		google_ad_channel = "";
+		google_color_border = "EEEEEE";
+		google_color_bg = "FFFFFF";
+		google_color_link = "484848";
+		google_color_text = "484848";
+		google_color_url = "2A5685";
+		//-->
+		</script>
+		<script type="text/javascript"
+		  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script>
+                <br />
+
+        
+    </div>
+
+    <div id="content">
+        
+        <div class="contextual">
+<a href="/projects/redmine/wiki/Security_Advisories/history" class="icon icon-history">History</a>
+</div>
+
+<p class="breadcrumb"><a href="/projects/redmine/wiki/Changelog">Changelog</a> » </p>
+
+
+<div class="wiki wiki-page">
+  <a name="Redmine-Security-Advisories"></a>
+<h1 >Redmine Security Advisories<a href="#Redmine-Security-Advisories" class="wiki-anchor">&para;</a></h1>
+
+
+	<p>This page lists the security vulnerabilities that were fixed in Redmine releases, starting from 1.3.0. If you think that you've found a security vulnerability, please report it by sending an email to: <code>security(at)redmine.org</code>.</p>
+
+
+	<table>
+		<tr>
+			<th>Severity</th>
+			<th>Details</th>
+			<th>External references</th>
+			<th>Affected versions</th>
+			<th>Fixed versions</th>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#ff8;">Moderate</td>
+			<td>Improper markup sanitization in wiki content (#25503)</td>
+			<td></td>
+			<td>All prior releases</td>
+			<td><a href="/versions/126" class="version">3.2.6</a> and <a href="/versions/125" class="version">3.3.3</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#ff8;">Moderate</td>
+			<td>Use redirect on /account/lost_password to prevent password reset tokens in referers (#24416)</td>
+			<td></td>
+			<td>All prior releases</td>
+			<td><a href="/versions/126" class="version">3.2.6</a> and <a href="/versions/125" class="version">3.3.3</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#ff8;">Moderate</td>
+			<td>Redmine.pm doesn't check that the repository module is enabled on project (#24307)</td>
+			<td></td>
+			<td>All prior releases</td>
+			<td><a href="/versions/126" class="version">3.2.6</a> and <a href="/versions/125" class="version">3.3.3</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#fb8;">High</td>
+			<td>Stored XSS with SVG attachments (#24199)</td>
+			<td></td>
+			<td>All prior releases</td>
+			<td><a href="/versions/126" class="version">3.2.6</a> and <a href="/versions/125" class="version">3.3.3</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#ff8;">Moderate</td>
+			<td>Information leak when rendering Time Entry on activity view (#23803)</td>
+			<td></td>
+			<td>All prior releases</td>
+			<td><a href="/versions/126" class="version">3.2.6</a> and <a href="/versions/125" class="version">3.3.3</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#ff8;">Moderate</td>
+			<td>Information leak when rendering Wiki links (#23793)</td>
+			<td></td>
+			<td>All prior releases</td>
+			<td><a href="/versions/126" class="version">3.2.6</a> and <a href="/versions/125" class="version">3.3.3</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#fb8;">High</td>
+			<td>Persistent XSS vulnerabilities in text formatting (Textile and Markdown) and project homepage</td>
+			<td></td>
+			<td>All prior releases</td>
+			<td><a href="/versions/117" class="version">3.1.6</a> and <a href="/versions/118" class="version">3.2.3</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#f88;">Critical</td>
+			<td>ImageMagick vulnerabilities</td>
+			<td><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3714" class="external">CVE-2016-3714</a></td>
+			<td>All prior releases since 2.1.0</td>
+			<td><a href="/versions/115" class="version">3.1.5</a> and <a href="/versions/116" class="version">3.2.2</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#ff8;">Moderate</td>
+			<td>Data disclosure in atom feed</td>
+			<td><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8537" class="external">CVE-2015-8537</a></td>
+			<td>All prior releases</td>
+			<td><a href="/versions/108" class="version">2.6.9</a>, <a href="/versions/111" class="version">3.0.7</a> and <a href="/versions/109" class="version">3.1.3</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#ff8;">Moderate</td>
+			<td>Potential changeset message disclosure in issues API</td>
+			<td><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8473" class="external">CVE-2015-8473</a></td>
+			<td>All prior releases</td>
+			<td><a href="/versions/105" class="version">2.6.8</a>, <a href="/versions/107" class="version">3.0.6</a> and <a href="/versions/106" class="version">3.1.2</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#ff8;">Moderate</td>
+			<td>Data disclosure on the time logging form</td>
+			<td><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8346" class="external">CVE-2015-8346</a></td>
+			<td>All prior releases</td>
+			<td><a href="/versions/105" class="version">2.6.8</a>, <a href="/versions/107" class="version">3.0.6</a> and <a href="/versions/106" class="version">3.1.2</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#ff8;">Moderate</td>
+			<td>Open Redirect vulnerability</td>
+			<td><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8474" class="external">CVE-2015-8474</a></td>
+			<td>2.5.1 to 2.6.6, 3.0.0 to 3.0.4 and 3.1.0</td>
+			<td><a href="/versions/100" class="version">2.6.7</a>, <a href="/versions/104" class="version">3.0.5</a> and <a href="/versions/103" class="version">3.1.1</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#ffc;">Low</td>
+			<td>Potential XSS vulnerability when rendering some flash messages</td>
+			<td><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8477" class="external">CVE-2015-8477</a></td>
+			<td>All prior releases</td>
+			<td><a href="/versions/89" class="version">2.6.2</a> and <a href="/versions/80" class="version">3.0.0</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#ff8;">Moderate</td>
+			<td>Potential data leak (project names) in the invalid form authenticity token error screen</td>
+			<td></td>
+			<td>All prior releases</td>
+			<td><a href="/versions/85" class="version">2.4.6</a> and <a href="/versions/84" class="version">2.5.2</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#ff8;">Moderate</td>
+			<td>Open Redirect vulnerability</td>
+			<td><a href="https://jvn.jp/en/jp/JVN93004610/index.html" class="external">JVN#93004610</a>, <a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-1985" class="external">CVE-2014-1985</a></td>
+			<td>All prior releases</td>
+			<td><a href="/versions/83" class="version">2.4.5</a> and <a href="/versions/82" class="version">2.5.1</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#f88;">Critical</td>
+			<td>Ruby on Rails vulnerability (<a href="http://weblog.rubyonrails.org/2013/3/18/SEC-ANN-Rails-3-2-13-3-1-12-and-2-3-18-have-been-released/" class="external">announcement</a>)</td>
+			<td></td>
+			<td>All releases prior to 2.2.4</td>
+			<td><a href="/versions/69" class="version">2.2.4</a>, <a href="/versions/60" class="version">2.3.0</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#f88;">Critical</td>
+			<td>Ruby on Rails vulnerability (<a href="http://weblog.rubyonrails.org/2013/2/11/SEC-ANN-Rails-3-2-12-3-1-11-and-2-3-17-have-been-released/" class="external">announcement</a>)</td>
+			<td></td>
+			<td>All releases prior to 2.2.3</td>
+			<td><a href="/versions/68" class="version">2.2.3</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#f88;">Critical</td>
+			<td>Ruby on Rails vulnerability (<a href="https://groups.google.com/forum/?fromgroups=#!topic/rubyonrails-security/1h2DR63ViGo" class="external">announcement</a>)</td>
+			<td></td>
+			<td>All releases prior to 2.2.1 and 2.1.6</td>
+			<td><a href="/news/78">Fix for 1.4.7</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#f88;">Critical</td>
+			<td>Ruby on Rails vulnerability (<a href="https://groups.google.com/forum/#!msg/rubyonrails-security/c7jT-EeN9eI/L0u4e87zYGMJ" class="external">announcement</a>)</td>
+			<td></td>
+			<td>All releases prior to 2.2.1 and 2.1.6</td>
+			<td><a href="/versions/67" class="version">1.4.7</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#f88;">Critical</td>
+			<td>Ruby on Rails vulnerability (<a href="http://weblog.rubyonrails.org/2013/1/8/Rails-3-2-11-3-1-10-3-0-19-and-2-3-15-have-been-released/" class="external">announcement</a>)</td>
+			<td></td>
+			<td>All prior releases</td>
+			<td> <a href="/versions/63" class="version">2.2.1</a>, <a href="/versions/64" class="version">2.1.6</a>, <a href="/versions/65" class="version">1.4.6</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#ff8;">Moderate</td>
+			<td>XSS vulnerability</td>
+			<td></td>
+			<td>2.1.0 and 2.1.1</td>
+			<td><a href="/versions/58" class="version">2.1.2</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#fb8;">High</td>
+			<td>Persistent XSS vulnerability</td>
+			<td><a href="http://jvn.jp/en/jp/JVN93406632/" class="external">JVN#93406632</a>, <a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-0327" class="external">CVE-2012-0327</a></td>
+			<td>All prior releases</td>
+			<td><a href="/versions/42" class="version">1.3.2</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#ff8;">Moderate</td>
+			<td>Mass-assignemnt vulnerability that would allow an attacker to bypass part of the security checks</td>
+			<td></td>
+			<td>All prior releases</td>
+			<td><a href="/versions/42" class="version">1.3.2</a></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:middle;background-color:#fb8;">High</td>
+			<td>Vulnerability that would allow an attacker to bypass the CSRF protection</td>
+			<td></td>
+			<td>All prior releases</td>
+			<td><a href="/versions/36" class="version">1.3.0</a></td>
+		</tr>
+	</table>
+</div>
+
+
+
+
+
+
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="http://www.redmine.org/">Redmine</a> &copy; 2006-2014 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
