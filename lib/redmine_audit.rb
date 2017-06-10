@@ -1,4 +1,4 @@
-require "redmine_audit/version"
+require 'redmine_audit/version'
 
 module RedmineAudit
   # Run the classic redmine plugin initializer after rails boot
