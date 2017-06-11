@@ -1,0 +1,11 @@
+
+<%-
+@advisories.each do |advisory|
+  s = advisory.fixed_versions.map { |v| '>= ' + v.to_s }.join(', ')
+-%>
+
+Severity: <%= advisory.severity %>
+URL: <%= advisory.external_references %>
+Detail: <%= advisory.details %>
+Solution: upgrade to <%= s %>
+<%- end -%>
