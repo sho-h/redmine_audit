@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Sho Hashimoto']
   spec.email         = ['sho.hsmt@gmail.com']
 
-  spec.summary       = %q{Redmine plugin for checking vulnerabilities}
-  spec.description   = %q{Redmine plugin for checking vulnerabilities}
+  spec.summary       = %q{Redmine plugin for checking Redmine's own vulnerabilities}
+  spec.description   = %q{Redmine plugin for checking Redmine's own vulnerabilities}
   spec.homepage      = 'https://github.com/sho-h/redmine_audit'
   spec.license       = 'MIT'
 
