@@ -1,12 +1,10 @@
 # RedmineAudit
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/redmine_audit`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This is Redmine plugin for checking vulnerabilities. provides redmine:audit rake task.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your Redmine's Gemfile.local:
 
 ```ruby
 gem 'redmine_audit'
@@ -16,23 +14,25 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install redmine_audit
-
 ## Usage
 
-TODO: Write usage instructions here
+Excecute redmine:audit rake task with users environment variable.
 
-## Development
+```
+$ rake redmine:audit users=1,2 RAILS_ENV=production
+```
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+Or, add same commant to crontab.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+```
+30 6 * * * www-data cd /path/to/redmine ; rake redmine:audit users=1,2 RAILS_ENV=production
+```
+
+users environment variable can set only system administrator.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/redmine_audit.
+Bug reports and pull requests are welcome on GitHub at https://github.com/sho-h/redmine_audit.
 
 
 ## License
