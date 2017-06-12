@@ -18,10 +18,7 @@ class Mailer < ActionMailer::Base
     end
 
     @advisories = advisories
-    # TODO: use Redmine's Mailer#mail method. Now using ActionMailer#mail method.
-    #       And remove from keyword argument after that.
     # TODO: Internationalize suject and body.
-    mail(from: Setting.mail_from, to: users.map(&:mail),
-         subject: "[Redmine] Security notification")
+    mail(to: users, subject: "[Redmine] Security notification")
   end
 end
