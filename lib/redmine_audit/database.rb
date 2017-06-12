@@ -29,7 +29,10 @@ module RedmineAudit
         end
       end
 
-      redmine_version = Gem::Version.new(v)
+      # tarball version has '.stable'.
+      # This is hack to avoid treating prerelease by Gem::Version.
+      # TODO: refactoring such as fix Gem::Version like setting @prerelease = false.
+      redmine_version = Gem::Version.new(v.gsub(/\.stable\z/, ''))
       unfixed_advisories = []
       @known_advisories.each do |advisory|
         if advisory.vulnerable?(redmine_version)
