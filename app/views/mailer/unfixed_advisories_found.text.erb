@@ -1,11 +1,19 @@
+Vulnerabilities found your Redmine!
 
 <%-
 @advisories.each do |advisory|
-  s = advisory.fixed_versions.map { |v| '>= ' + v.to_s }.join(', ')
+  if advisory.present?
+    ext_refs = advisory.external_references
+  else
+    ext_refs = 'none'
+  end
+  solution = advisory.fixed_versions.join(', ')
 -%>
 
 Severity: <%= advisory.severity %>
-URL: <%= advisory.external_references %>
+URL: <%= ext_refs %>
 Detail: <%= advisory.details %>
-Solution: upgrade to <%= s %>
+Solution: upgrade to <%= solution %>
 <%- end -%>
+
+See <%= RedmineAudit::Database::URL %> for more detail.
