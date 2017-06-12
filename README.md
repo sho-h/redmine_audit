@@ -28,7 +28,7 @@ Or, add same commant to crontab.
 30 6 * * * www-data cd /path/to/redmine ; rake redmine:audit users=1,2 RAILS_ENV=production
 ```
 
-users environment variable can set only system administrator.
+Send email if vulnerabilities found. users environment variable can set only system administrator.
 
 ## Contributing
 
