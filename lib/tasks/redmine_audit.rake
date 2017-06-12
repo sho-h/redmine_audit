@@ -21,7 +21,7 @@ namespace :redmine do
     redmine_ver = Redmine::VERSION
     advisories = RedmineAudit::Database.new.advisories(redmine_ver.to_s)
     if advisories.length > 0
-      users = (ENV['USERS'] || '').split(',').each(&:strip!)
+      users = (ENV['users'] || '').split(',').each(&:strip!)
       Mailer.with_synched_deliveries do
         Mailer.unfixed_advisories_found(advisories, users).deliver
       end
