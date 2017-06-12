@@ -11,7 +11,6 @@ class Mailer < ActionMailer::Base
       raise "Couldn't find user specified: #{advisories.inspect}"
     end
 
-    user_ids = options[:users]
     users = User.active.where(admin: true, id: user_ids).to_a
     if users.empty?
       raise ActiveRecord::RecordNotFound.new("Couldn't find user specified: #{user_ids.inspect}")
