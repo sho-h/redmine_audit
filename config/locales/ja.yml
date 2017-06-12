@@ -1,2 +1,4 @@
 ja:
-  mail_body_advisories_found: "TODO"
+  mail_summary_advisories_found: "Redmineの脆弱性が見つかりました!"
+  mail_detail_link_head_advisories_found: "詳しくは"
+  mail_detail_link_tail_advisories_found: "を参照してください。"

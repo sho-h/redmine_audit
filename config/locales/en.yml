@@ -1,3 +1,5 @@
 # English strings go here for Rails i18n
 en:
-  mail_body_advisories_found: "TODO"
+  mail_summary_advisories_found: "Vulnerabilities found your Redmine!"
+  mail_detail_link_head_advisories_found: "See"
+  mail_detail_link_tail_advisories_found: "for more detail."

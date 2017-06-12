@@ -1,8 +1,8 @@
-Vulnerabilities found your Redmine!
+<%= l(:mail_summary_advisories_found) %>
 
 <%-
 @advisories.each do |advisory|
-  if advisory.present?
+  if advisory.external_references && !advisory.external_references.empty?
     ext_refs = advisory.external_references
   else
     ext_refs = 'none'
@@ -16,4 +16,4 @@ Detail: <%= advisory.details %>
 Solution: upgrade to <%= solution %>
 <%- end -%>
 
-See <%= RedmineAudit::Database::URL %> for more detail.
+<%= l(:mail_detail_link_head_advisories_found) %> <%= RedmineAudit::Database::URL %> <%= l(:mail_detail_link_tail_advisories_found) %>
