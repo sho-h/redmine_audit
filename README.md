@@ -14,6 +14,22 @@ And then execute:
 
     $ bundle
 
+Or git clone under Redmine's plugins directory.
+
+```
+$ cd /path/to/redmine/plugins && git clone https://github.com/sho-h/redmine_audit.git
+```
+
+## Uninstallation
+
+Remove above line from your Redmine's Gemfile.local.
+
+And remove file(s) this gem installed(or you cloned).
+
+```
+$ cd /path/to/redmine/plugins && rm -rf ./redmine_audit
+```
+
 ## Usage
 
 Excecute redmine:audit rake task with users environment variable.
