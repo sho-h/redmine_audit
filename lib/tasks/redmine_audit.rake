@@ -23,7 +23,7 @@ namespace :redmine do
     if advisories.length > 0
       users = (ENV['users'] || '').split(',').each(&:strip!)
       Mailer.with_synched_deliveries do
-        Mailer.unfixed_advisories_found(advisories, users).deliver
+        Mailer.unfixed_advisories_found(redmine_ver, advisories, users).deliver
       end
     end
   end

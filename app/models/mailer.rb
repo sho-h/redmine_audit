@@ -6,7 +6,7 @@ class Mailer < ActionMailer::Base
   #   The version to compare against {#unaffected_versions}.
   # @param [Array] user_ids
   #   Array of user ids who should be notified
-  def unfixed_advisories_found(advisories, user_ids)
+  def unfixed_advisories_found(redmine_version, advisories, user_ids)
     if advisories.nil? || advisories.empty?
       raise "Couldn't find user specified: #{advisories.inspect}"
     end
@@ -16,6 +16,7 @@ class Mailer < ActionMailer::Base
       raise ActiveRecord::RecordNotFound.new("Couldn't find user specified: #{user_ids.inspect}")
     end
 
+    @redmine_version = redmine_version
     @advisories = advisories
     # TODO: Internationalize suject and body.
     mail(to: users, subject: "[Redmine] Security notification")
