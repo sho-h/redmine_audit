@@ -57,7 +57,9 @@ module RedmineAudit
       # Ignore depends gem
       return nil if /Ruby on Rails vulnerability/.match(res[1])
 
-      versions = tds[4].content.split(/\s*(?:and|,)\s*/)
+      versions = tds[4].content.split(/\s*(?:and|,)\s*/).sort {|v1, v2|
+        Gem::Version.new(v1) <=> Gem::Version.new(v2)
+      }
       fixed_versions = []
       if versions.length > 1
         fixed_versions =
