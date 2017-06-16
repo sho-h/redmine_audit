@@ -25,7 +25,7 @@ $ rake redmine:audit users=1,2 RAILS_ENV=production
 Or, add same commant to crontab.
 
 ```
-30 6 * * * www-data cd /path/to/redmine ; rake redmine:audit users=1,2 RAILS_ENV=production
+30 6 * * * www-data perl -e 'sleep int(rand(3600))' && cd /path/to/redmine ; rake redmine:audit users=1,2 RAILS_ENV=production
 ```
 
 Send email if vulnerabilities found. users environment variable can set only system administrator.
