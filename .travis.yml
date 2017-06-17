@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+ - 2.2
+ - 2.3
+ - 2.4
+notifications:
+  email:
+    recipients:
+      - sho.hsmt@gmail.com
+    on_success: never
+    on_failure: always
