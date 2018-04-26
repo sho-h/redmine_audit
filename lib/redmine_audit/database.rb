@@ -8,8 +8,6 @@ module RedmineAudit
     URL = 'http://www.redmine.org/projects/redmine/wiki/Security_Advisories'
     TABLE_XPATH = '//*[@id="content"]/div[2]/table'
 
-    attr_reader :vulnerabilities
-
     # Get unfixed advisories against specified Redmine version.
     #
     # @param [String] version
