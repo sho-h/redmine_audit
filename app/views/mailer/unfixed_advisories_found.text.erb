@@ -18,4 +18,4 @@ Detail: <%= advisory.details %>
 Solution: upgrade to <%= solution %>
 <%- end -%>
 
-<%= l(:mail_detail_link_head_advisories_found) %> <%= RedmineAudit::Database::URL %> <%= l(:mail_detail_link_tail_advisories_found) %>
+<%= l(:mail_detail_link_advisories_found, link: RedmineAudit::Database::URL) %>

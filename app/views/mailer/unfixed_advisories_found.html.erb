@@ -23,5 +23,5 @@
 <%- end -%>
 
 <div>
-<%= l(:mail_detail_link_head_advisories_found) %> <%= link_to 'redmine.org', RedmineAudit::Database::URL %> <%= l(:mail_detail_link_tail_advisories_found) %>
+<%= raw(l(:mail_detail_link_advisories_found, link: link_to('redmine.org', RedmineAudit::Database::URL))) %>
 </div>
