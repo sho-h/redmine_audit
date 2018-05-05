@@ -2,10 +2,12 @@
 class Mailer < ActionMailer::Base
   # Sends notification to specified administrator
   #
-  # @param [Gem::Version] advisories
+  # @param [Gem::Version] redmine_version
   #   The version to compare against {#unaffected_versions}.
+  # @param [RedmineAudit::Advisory] advisories
+  #   Array of Redmine advisories.
   # @param [Array] user_ids
-  #   Array of user ids who should be notified
+  #   Array of user ids who should be notified.
   def unfixed_advisories_found(redmine_version, advisories, user_ids)
     if advisories.nil? || advisories.empty?
       raise "Couldn't find user specified: #{advisories.inspect}"
