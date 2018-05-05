@@ -9,7 +9,7 @@ Available options:
   * users    => comma separated list of user/group ids who should be notified
 
 Example:
-  rake redmine:bundle_audit users="1,23, 56" RAILS_ENV="production"
+  rake redmine:audit users="1,23, 56" RAILS_ENV="production"
 END_DESC
 
 namespace :redmine do
