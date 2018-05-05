@@ -9,9 +9,7 @@ class Mailer < ActionMailer::Base
   # @param [Array] user_ids
   #   Array of user ids who should be notified.
   def unfixed_advisories_found(redmine_version, advisories, user_ids)
-    if advisories.nil? || advisories.empty?
-      raise "Couldn't find user specified: #{advisories.inspect}"
-    end
+    return if advisories.nil? || advisories.empty?
 
     users = User.active.where(admin: true, id: user_ids).to_a
     if users.empty?
