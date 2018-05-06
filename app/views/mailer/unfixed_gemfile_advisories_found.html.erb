@@ -1,0 +1,14 @@
+<div><%= l(:mail_summary_gemfile_advisories_found) %></div>
+
+<%- @scan_result.each do |result| -%>
+<div>
+  <ul style="list-style:none;">
+    <li>Name: <%= result.gem.name %></li>
+    <li>Version: <%= result.gem.version %></li>
+    <li>Criticality: <%= gem_criticality(result.advisory) %></li>
+    <li>URL: <%= link_to(result.advisory.url, result.advisory.url) %></li>
+    <li>Title: <%= result.advisory.title %></li>
+    <li>Solution: upgrade to <%= result.advisory.patched_versions.join(', ') %></li>
+  </ul>
+</div>
+<%- end -%>
