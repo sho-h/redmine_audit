@@ -50,7 +50,11 @@ namespace :redmine do
 
     # Update ruby-advisory-db.
     task :update_ruby_advisory_db do
-      Bundler::Audit::Database.update!(quiet: true)
+      begin
+        Bundler::Audit::Database.update!(quiet: true)
+      rescue => e
+        warn "failed to update ruby-advisory-db: #{e.message}"
+      end
     end
 
     task :ruby_and_gems, [:users] => :update_ruby_advisory_db do |t, args|
