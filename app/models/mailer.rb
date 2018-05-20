@@ -21,15 +21,18 @@ class Mailer < ActionMailer::Base
 
   # Sends Redmine depend gem security notification to specified administrator
   #
-  # @param [Enumerator] scan_result
+  # @param [Enumerator] ruby_result
+  #   The Enumerator of Redmine depend ruby advisories.
+  # @param [Enumerator] gems_result
   #   The Enumerator of Redmine depend gem advisories.
   # @param [Array] users
   #   Array of users who should be notified.
-  def unfixed_gemfile_advisories_found(scan_result, users)
-    return if scan_result.nil? || scan_result.count.zero?
+  def unfixed_ruby_and_gems_advisories_found(ruby_result, gems_result, users)
+    return if (ruby_result.nil? || ruby_result.count.zero?) && (gems_result.nil? || gems_result.count.zero?)
 
-    @scan_result = scan_result
+    @ruby_result = ruby_result || []
+    @gems_result = gems_result || []
     # TODO: Internationalize subject.
-    mail(to: users, subject: "[Redmine] Depend gem security notification")
+    mail(to: users, subject: "[Redmine] Ruby/Depend gem security notification")
   end
 end

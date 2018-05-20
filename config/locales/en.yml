@@ -1,5 +1,5 @@
 # English strings go here for Rails i18n
 en:
   mail_summary_redmine_advisories_found: "Vulnerabilities found your Redmine!"
-  mail_summary_gemfile_advisories_found: "Vulnerabilities found your Redmine depend gems!"
+  mail_summary_ruby_and_gems_advisories_found: "Vulnerabilities found Ruby/depend gems on your Redmine!"
   mail_detail_link_advisories_found: "See %{link} for more detail."

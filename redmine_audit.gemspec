@@ -23,6 +23,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'nokogiri'
   spec.add_runtime_dependency 'bundler-audit'
+  spec.add_runtime_dependency 'ruby_audit'
 
   spec.add_development_dependency 'bundler', '~> 1.14'
   spec.add_development_dependency 'rake', '~> 10.0'

@@ -1,4 +1,4 @@
 ja:
   mail_summary_redmine_advisories_found: "Redmineの脆弱性が見つかりました!"
-  mail_summary_gemfile_advisories_found: "Redmineの依存するgemの脆弱性が見つかりました!"
+  mail_summary_ruby_and_gems_advisories_found: "RedmineのRubyや依存するgemの脆弱性が見つかりました!"
   mail_detail_link_advisories_found: "詳しくは %{link} を参照してください。"

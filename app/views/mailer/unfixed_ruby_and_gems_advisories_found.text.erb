@@ -1,5 +1,8 @@
-<%= l(:mail_summary_gemfile_advisories_found) %>
-<%- @scan_result.each do |result| -%>
+<%= l(:mail_summary_ruby_and_gems_advisories_found) %>
+<%-
+  {Ruby: @ruby_result, Gems: @gems_result}.each do |key, results|
+    results.each do |result|
+-%>
 
 Name: <%= result.gem.name %>
 Version: <%= result.gem.version %>
@@ -8,4 +11,5 @@ Criticality: <%= gem_criticality(result.advisory) %>
 URL: <%= result.advisory.url %>
 Title: <%= result.advisory.title %>
 Solution: upgrade to <%= result.advisory.patched_versions.join(', ') %>
+  <%- end -%>
 <%- end -%>

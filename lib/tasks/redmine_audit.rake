@@ -2,13 +2,15 @@ require 'redmine/version'
 require 'redmine_audit/advisory'
 require 'redmine_audit/database'
 require 'bundler/audit/scanner'
+require 'ruby_audit/database'
+require 'ruby_audit/scanner'
 
 desc <<-END_DESC
 Check redmine vulnerabilities.
 
 Available options:
   * users => comma separated list of user/group ids who should be notified
-  * dont_bundler_audit => don't bundler audit if '1' specified
+  * dont_check_ruby_and_gems => don't bundler-audit and ruby_audit if '1' specified
 
 Example:
   rake redmine:audit users="1,23, 56" RAILS_ENV="production"
@@ -30,8 +32,8 @@ namespace :redmine do
     require_dependency 'mailer'
     require_relative '../../app/models/mailer.rb'
     Rake::Task['redmine:audit:redmine'].invoke(users)
-    unless ENV['dont_bundler_audit'] == '1'
-      Rake::Task['redmine:audit:bundler'].invoke(users)
+    unless ENV['dont_check_ruby_and_gems'] == '1'
+      Rake::Task['redmine:audit:ruby_and_gems'].invoke(users)
     end
   end
 
@@ -51,11 +53,12 @@ namespace :redmine do
       Bundler::Audit::Database.update!(quiet: true)
     end
 
-    task :bundler, [:users] => :update_ruby_advisory_db do |t, args|
-      scan_result = Bundler::Audit::Scanner.new.scan
-      if scan_result.count > 0
+    task :ruby_and_gems, [:users] => :update_ruby_advisory_db do |t, args|
+      ruby_result = RubyAudit::Scanner.new.scan
+      gems_result = Bundler::Audit::Scanner.new.scan
+      if ruby_result.count > 0 || gems_result.count > 0
         Mailer.with_synched_deliveries do
-          Mailer.unfixed_gemfile_advisories_found(scan_result, args.users).deliver
+          Mailer.unfixed_ruby_and_gems_advisories_found(ruby_result, gems_result, args.users).deliver
         end
       end
     end
