@@ -2,6 +2,13 @@
 <%-
   {Ruby: @ruby_result, Gems: @gems_result}.each do |key, results|
     results.each do |result|
+      case result
+      when Bundler::Audit::Scanner::InsecureSource
+-%>
+
+Insecure Source URI found: <%= result.source %>
+<%-
+      when Bundler::Audit::Scanner::UnpatchedGem
 -%>
 
 Name: <%= result.gem.name %>
@@ -11,5 +18,10 @@ Criticality: <%= gem_criticality(result.advisory) %>
 URL: <%= result.advisory.url %>
 Title: <%= result.advisory.title %>
 Solution: upgrade to <%= result.advisory.patched_versions.join(', ') %>
-  <%- end -%>
-<%- end -%>
+<%-
+      else
+        # ignore
+      end
+    end
+  end
+-%>

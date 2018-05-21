@@ -3,6 +3,16 @@
 <%-
   {Ruby: @ruby_result, Gems: @gems_result}.each do |key, results|
     results.each do |result|
+      case result
+      when Bundler::Audit::Scanner::InsecureSource
+-%>
+<div>
+  <ul style="list-style:none;">
+    <li>Insecure Source URI found: <%= link_to(result.source, result.source) %></li>
+  </ul>
+</div>
+<%-
+      when Bundler::Audit::Scanner::UnpatchedGem
 -%>
 <div>
   <ul style="list-style:none;">
@@ -14,5 +24,10 @@
     <li>Solution: upgrade to <%= result.advisory.patched_versions.join(', ') %></li>
   </ul>
 </div>
-  <%- end -%>
-<%- end -%>
+<%-
+      else
+        # ignore
+      end
+    end
+  end
+-%>
