@@ -1,0 +1,27 @@
+require 'open-uri'
+require 'nokogiri'
+require 'yaml'
+
+URL_BASE = 'http://www.redmine.org/plugins?page='
+LIST_PATH = File.join(__dir__, '../data/plugins.yml')
+
+plugin_names = []
+page = 1
+loop do
+  puts "chacking page:#{page}..."
+  html = open(URL_BASE + page.to_s).read
+  doc = Nokogiri::HTML(html)
+  doc.xpath('//a[@class="plugin"]').each do |a|
+    plugin_names.push(a.attributes["href"].value.split('/').last)
+  end
+  if doc.xpath('//a[@class="next"]').count > 0
+    page += 1
+  else
+    break
+  end
+  sleep 60
+end
+
+File.open(LIST_PATH, 'w') do |f|
+  f.write(plugin_names.to_yaml)
+end
