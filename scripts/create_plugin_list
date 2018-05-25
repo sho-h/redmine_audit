@@ -2,26 +2,41 @@ require 'open-uri'
 require 'nokogiri'
 require 'yaml'
 
-URL_BASE = 'http://www.redmine.org/plugins?page='
+URL_BASE = 'http://www.redmine.org/'
 LIST_PATH = File.join(__dir__, '../data/plugins.yml')
 
-plugin_names = []
+plugins = {}
 page = 1
 loop do
   puts "chacking page:#{page}..."
-  html = open(URL_BASE + page.to_s).read
-  doc = Nokogiri::HTML(html)
+  doc = Nokogiri::HTML(open(URL_BASE + "plugins?page=#{page}").read)
   doc.xpath('//a[@class="plugin"]').each do |a|
-    plugin_names.push(a.attributes["href"].value.split('/').last)
+    path = a.attributes["href"].value
+    name = path.split('/').last
+    plugins[name] = {}
+
+    sleep 60
+    puts "chacking page:#{page}:#{name}..."
+
+    detail_url = File.join(URL_BASE, path)
+    detail_doc = Nokogiri::HTML(open(detail_url).read)
+    {website: 2, repository: 3}.each do |key, index|
+      xpath = "//*[@id=\"content\"]/div[2]/table/tr[#{index}]/td/a"
+      detail_doc.xpath(xpath).each do |da|
+        plugins[name][key] = da.attributes["href"].value
+      end
+    end
   end
   if doc.xpath('//a[@class="next"]').count > 0
     page += 1
   else
     break
   end
+
+  File.open(LIST_PATH, 'w') do |f|
+    f.write(plugins.to_yaml)
+  end
+
   sleep 60
 end
 
-File.open(LIST_PATH, 'w') do |f|
-  f.write(plugin_names.to_yaml)
-end
