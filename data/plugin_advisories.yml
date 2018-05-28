@@ -1,0 +1,19 @@
+---
+# plugin_id: # specified to Redmine::Plugin.register argument
+#   cve_id:
+#     attr_name: value
+:redmine_git_hosting:
+  CVE-2013-4663:
+    name: Redmine Git Hosting Plugin
+    url: https://www.sec-1.com/blog/2013/redmine-git-hosting-plugin-remote-command-execution
+    title: Remote Command Execution
+    cvss_v2: 7.5
+    date: '2013-08-16'
+    description: |
+      git_http_controller.rb in the redmine_git_hosting plugin for
+      Redmine allows remote attackers to execute arbitrary commands via
+      shell metacharacters in (1) the service parameter to info/refs,
+      related to the get_info_refs function or (2) the reqfile argument
+      to the file_exists function.
+    patched_versions:
+      - ">= 1.0.0"
