@@ -1415,6 +1415,7 @@ redmine_git_branch_hook:
 redmine_git_hosting:
   :website: http://redmine-git-hosting.io/
   :repository: https://github.com/jbox-web/redmine_git_hosting
+  :cve_list: https://www.cvedetails.com/vulnerability-list/vendor_id-8599/product_id-30671/Redmine-Redmine-Git-Hosting-Plugin.html
 redmine_gollum:
   :website: https://github.com/gugod/redmine-gollum/wiki
   :repository: https://github.com/gugod/redmine-gollum
