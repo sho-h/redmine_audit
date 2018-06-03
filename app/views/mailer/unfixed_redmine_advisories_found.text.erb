@@ -18,4 +18,27 @@ Detail: <%= advisory.details %>
 Solution: upgrade to <%= solution %>
 <%- end -%>
 
+<%-
+@plugin_advisories.each do |plugin, advisories|
+  advisories.each do |advisory|
+    solution = advisory.fixed_versions.join(', ')
+    if advisory.external_references && !advisory.external_references.empty?
+      ext_refs = advisory.external_references
+    else
+      ext_refs = 'none'
+    end
+-%>
+
+Name: <%= plugin.name %>
+Version: <%= plugin.version %>
+Advisory: <%= advisory.id %>
+Severity: <%= advisory.severity %>
+URL: <%= ext_refs %>
+Detail: <%= advisory.details %>
+Solution: upgrade to <%= solution %>
+<%-
+  end
+end
+-%>
+
 <%= l(:mail_detail_link_advisories_found, link: RedmineAudit::Database::URL) %>

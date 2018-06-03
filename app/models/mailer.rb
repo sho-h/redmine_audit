@@ -8,13 +8,16 @@ class Mailer < ActionMailer::Base
   #   The version to compare against {#unaffected_versions}.
   # @param [RedmineAudit::Advisory] advisories
   #   Array of Redmine advisories.
+  # @param [RedmineAudit::Advisory] plugin_advisories
+  #   Array of plugin's Redmine advisories.
   # @param [Array] users
   #   Array of users who should be notified.
-  def unfixed_redmine_advisories_found(redmine_version, redmine_advisories, users)
-    return if redmine_advisories.nil? || redmine_advisories.empty?
+  def unfixed_redmine_advisories_found(redmine_version, redmine_advisories, plugin_advisories, users)
+    return if (redmine_advisories.nil? || redmine_advisories.empty?) && (plugin_advisories.nil? || plugin_advisories.empty?)
 
     @redmine_version = redmine_version
-    @advisories = redmine_advisories
+    @advisories = redmine_advisories || []
+    @plugin_advisories = plugin_advisories || []
     # TODO: Internationalize subject.
     mail(to: users, subject: "[Redmine] Security notification")
   end

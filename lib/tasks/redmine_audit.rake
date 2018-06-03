@@ -1,6 +1,7 @@
 require 'redmine/version'
 require 'redmine_audit/advisory'
 require 'redmine_audit/database'
+require 'redmine_audit/plugin_database'
 require 'bundler/audit/scanner'
 require 'ruby_audit/database'
 require 'ruby_audit/scanner'
@@ -41,9 +42,10 @@ namespace :redmine do
     task :redmine, [:users] do |t, args|
       redmine_ver = Redmine::VERSION.to_s
       advisories = RedmineAudit::Database.new.advisories(redmine_ver)
-      if advisories.length > 0
+      plugin_advisories = RedmineAudit::PluginDatabase.new.advisories
+      if advisories.length > 0 || plugin_advisories.length > 0
         Mailer.with_synched_deliveries do
-          Mailer.unfixed_redmine_advisories_found(redmine_ver, advisories, args.users).deliver
+          Mailer.unfixed_redmine_advisories_found(redmine_ver, advisories, plugin_advisories, args.users).deliver
         end
       end
     end

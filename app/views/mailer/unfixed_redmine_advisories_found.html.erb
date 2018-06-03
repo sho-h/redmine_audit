@@ -22,6 +22,33 @@
 </div>
 <%- end -%>
 
+<%-
+@plugin_advisories.each do |plugin, advisories|
+  advisories.each do |advisory|
+    if advisory.external_references && !advisory.external_references.empty?
+      ext_refs = advisory.external_references
+    else
+      ext_refs = 'none'
+    end
+    solution = advisory.fixed_versions.join(', ')
+-%>
+
+<div>
+  <ul style="list-style:none;">
+    <li>Name: <%= plugin.name %></li>
+    <li>Version: <%= plugin.version %></li>
+    <li>Severity: <%= advisory.severity %></li>
+    <li>URL: <%= ext_refs.join(', ') %></li>
+    <li>Detail: <%= advisory.details %></li>
+    <li>Solution: upgrade to <%= solution %></li>
+  </ul>
+</div>
+
+<%-
+  end
+end
+-%>
+
 <div>
 <%= raw(l(:mail_detail_link_advisories_found, link: link_to('redmine.org', RedmineAudit::Database::URL))) %>
 </div>
