@@ -17,7 +17,7 @@ And then execute:
 Or fetch and extract under Redmine's plugins directory.
 
 ```
-$ cd /path/to/redmine/plugins && curl -L https://github.com/sho-h/redmine_audit/archive/v0.1.1.tar.gz | tar x
+$ cd /path/to/redmine/plugins && curl -L https://github.com/sho-h/redmine_audit/archive/v0.2.0.tar.gz | tar x
 ```
 
 ## Uninstallation
