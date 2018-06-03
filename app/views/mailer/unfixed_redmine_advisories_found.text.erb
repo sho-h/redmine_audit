@@ -17,7 +17,6 @@ URL: <%= ext_refs %>
 Detail: <%= advisory.details %>
 Solution: upgrade to <%= solution %>
 <%- end -%>
-
 <%-
 @plugin_advisories.each do |plugin, advisories|
   advisories.each do |advisory|
@@ -33,7 +32,7 @@ Name: <%= plugin.name %>
 Version: <%= plugin.version %>
 Advisory: <%= advisory.id %>
 Severity: <%= advisory.severity %>
-URL: <%= ext_refs %>
+URL: <%= ext_refs.join(', ') %>
 Detail: <%= advisory.details %>
 Solution: upgrade to <%= solution %>
 <%-
