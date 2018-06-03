@@ -22,7 +22,7 @@ module RedmineAudit
         doc = Nokogiri::HTML(html)
         doc.xpath(TABLE_XPATH).xpath('tr')[1..-1].each do |tr|
           if res = parse_tds(tr.xpath('td'))
-            @known_advisories << Advisory.new(*res)
+            @known_advisories << Advisory.new(*res, nil, nil, nil)
           end
         end
       end

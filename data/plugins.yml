@@ -1,0 +1,2468 @@
+---
+redmine_agile:
+  :website: https://www.redmineup.com/pages/plugins/agile
+easy-gantt:
+  :website: https://www.easyredmine.com/redmine-gantt-plugin
+mindmap-plugin:
+  :website: https://www.easyredmine.com/redmine-mindmap-plugin
+redmine_2fa:
+  :website: https://github.com/centosadmin/redmine_2fa
+  :repository: https://github.com/centosadmin/redmine_2fa.git
+chiliproject_look_and_feel:
+  :website: http://www.chiliproject.eu/projects/chiliproject-eu/wiki/ChiliProject_Look_and_Feel_Plugin
+a_common_libs:
+  :website: http://rmplus.pro
+  :repository: https://bitbucket.org/dkuk/a_common_libs.git
+luxury_buttons:
+  :website: http://rmplus.pro/en/redmine/plugins/luxury_buttons
+website-screenshot-page2images:
+  :website: http://www.page2images.com
+  :repository: https://github.com/SuzhouKada/redmine-page2images
+absence_io:
+  :website: https://www.absence.io/en
+accept:
+  :website: https://github.com/stefanzugal/accept-plugin
+  :repository: https://github.com/stefanzugal/accept-plugin
+access_tickets:
+  :repository: https://github.com/iymaltsev/access_tickets
+redmine_activity_report:
+  :website: https://github.com/centosadmin/redmine_activity_report
+  :repository: https://github.com/centosadmin/redmine_activity_report.git
+default_members: {}
+add_subversion_links:
+  :website: http://masamitsu-murase.blogspot.jp/
+  :repository: https://github.com/masamitsu-murase/redmine_add_subversion_links
+add-watchers-textinput:
+  :website: https://github.com/alvinchow86/redmine-watchers-textinput
+  :repository: https://github.com/alvinchow86/redmine-watchers-textinput
+additionals:
+  :repository: https://github.com/alphanodes/additionals
+redmine_admin_monitor:
+  :repository: https://github.com/yossiedri/Redmine-Admin-Monitor-Plugin.git
+ads:
+  :website: https://redmine.ociotec.com/projects/redmine-plugin-ads
+advanced_membership_management:
+  :website: https://github.com/integra-consultores/advanced-membership-management
+  :repository: https://github.com/integra-consultores/advanced-membership-management
+advanced_reminder:
+  :website: http://github.com/alvila/redmine_reminder
+  :repository: http://github.com/alvila/redmine_reminder
+advanced_roadmap:
+  :website: https://redmine.ociotec.com/projects/advanced-roadmap
+  :repository: https://redmine.ociotec.com/projects/advanced-roadmap/files
+advanced_roadmap_v2:
+  :website: https://github.com/Coren/redmine_advanced_roadmap_v2
+  :repository: https://github.com/Coren/redmine_advanced_roadmap_v2
+reklama:
+  :website: http://projects.andriylesyuk.com/projects/advertising
+  :repository: http://subversion.andriylesyuk.com/advertising
+agile_dwarf:
+  :website: http://www.agiledwarf.com/
+  :repository: https://github.com/iRessources/AgileDwarf
+redmine_agreement:
+  :website: https://github.com/centosadmin/redmine_agreement
+  :repository: https://github.com/centosadmin/redmine_agreement.git
+redmine_airbrake:
+  :website: http://redmine-search.com/airbrake
+  :repository: https://github.com/jkraemer/redmine_airbrake
+all-time-team:
+  :website: http://daipresents.com/2009/redmine_all_time_team_plugin/
+  :repository: https://github.com/daipresents/redmine_all_time_team
+redmine_allocation:
+  :website: https://github.com/Emergya/redmine_allocation
+  :repository: https://github.com/Emergya/redmine_allocation
+amazon_s3:
+  :website: https://x3ro.github.io/redmine_amazon_s3/
+  :repository: https://github.com/x3ro/redmine_amazon_s3
+anko_gantt_chart:
+  :website: http://www.ankosoft.co.jp/anko_gantt_chart/
+announcements:
+  :website: http://buoyant.github.io/redmine_announcements
+  :repository: https://github.com/buoyant/redmine_announcements
+anonymous-authors: {}
+anonymous-watchers: {}
+apijs:
+  :website: https://www.luigifab.info/redmine/apijs
+  :repository: https://github.com/luigifab38/apijs
+redmine_appmenuadds:
+  :website: http://www.ultragreen.net/projects/redmine-appmenuadds
+  :repository: https://github.com/Ultragreen/redmine-appmenuadds
+redmine_archive_issue_categories:
+  :repository: https://github.com/tofi86/redmine_archive_issue_categories
+redmine_assets_plugin:
+  :website: https://github.com/bshaffer/redmine-assets-plugin
+assign_current_date:
+  :website: https://github.com/team888
+  :repository: https://github.com/team888/redmine-assign_current_date-plugin
+assign_current_user:
+  :website: https://github.com/team888
+  :repository: https://github.com/team888/redmine-assign_current_user-plugin
+clipboard_image_paste:
+  :website: https://github.com/peclik/clipboard_image_paste
+  :repository: https://github.com/peclik/clipboard_image_paste
+redmine_attach_screenshot: {}
+attitems:
+  :repository: https://github.com/eckucukoglu/redmine-attachable-items
+attachment_name_validator: {}
+author:
+  :website: http://projects.andriylesyuk.com/projects/author-box
+  :repository: http://subversion.andriylesyuk.com/author-box
+redmine_author_notification_emails:
+  :website: https://github.com/darioo/redmine_author_notification_emails
+  :repository: https://github.com/darioo/redmine_author_notification_emails
+auto_assigned_user:
+  :website: https://github.com/Eyepea/redmine_auto_assigned_user
+  :repository: https://github.com/Eyepea/redmine_auto_assigned_user
+redmine_auto_deputy:
+  :website: https://github.com/florianeck/redmine_auto_deputy
+  :repository: https://github.com/florianeck/redmine_auto_deputy
+redmine_auto_identifier:
+  :repository: https://github.com/ande3577/redmine_auto_identifier
+redmine_auto_lock:
+  :website: http://www.systango.com
+  :repository: https://github.com/stpl/redmine_auto_lock/
+auto-populate-fields: {}
+redmine_auto_watchers_from_groups:
+  :website: https://github.com/akuznecov/redmine_auto_watchers_from_groups
+  :repository: https://github.com/akuznecov/redmine_auto_watchers_from_groups
+autohier:
+  :website: https://github.com/merikonjatta/redmine_autohier/
+  :repository: https://github.com/merikonjatta/redmine_autohier/
+redmine_category_watchers:
+  :website: https://github.com/luisfontes19/redmine_category_watchers
+  :repository: https://github.com/luisfontes19/redmine_category_watchers
+automatically-add-ldap-users-to-group:
+  :website: https://github.com/savoirfairelinux/redmine-add-ldap-user-to-group
+  :repository: https://github.com/savoirfairelinux/redmine-add-ldap-user-to-group
+autorespond:
+  :website: https://www.gyselroth.com
+  :repository: https://github.com/gyselroth/redmine-plugin-autorespond
+avoid_duplicated_name_in_projects_list:
+  :website: https://github.com/integra-consultores/avoid-duplicated-name-in-projects-list
+  :repository: https://github.com/integra-consultores/avoid-duplicated-name-in-projects-list
+backlogs:
+  :repository: https://github.com/backlogs/redmine_backlogs
+redmine_banner:
+  :website: http://www.r-labs.org/projects/banner
+  :repository: https://github.com/akiko-pusu/redmine_banner
+redmine_polls:
+  :website: http://www.redmine.org/projects/redmine/wiki/PluginBasicPolls
+bestest_timer:
+  :website: https://github.com/LeviticusMB/bestest_timer
+  :repository: https://github.com/LeviticusMB/bestest_timer.git
+redmine_better_gantt_chart:
+  :repository: https://github.com/kulesa/redmine_better_gantt_chart
+redmine_bbb:
+  :website: http://github.com/amartel/redmine_bbb
+  :repository: git://github.com/amartel/redmine_bbb.git
+redmine_bitbucket_hook:
+  :website: https://github.com/milkfarm/redmine_bitbucket_hook
+  :repository: https://github.com/milkfarm/redmine_bitbucket_hook
+bitbucket_reference_redmine:
+  :website: https://productize.be
+  :repository: https://bitbucket.org/productize/bitbucket_reference_redmine
+redmine_blocks:
+  :website: http://www.redmine.org/projects/redmine/wiki/PluginBlocksLayout
+redmine_boards_watchers:
+  :website: http://www.redmine.org/boards/3/topics/16247
+mmqb:
+  :repository: https://github.com/QBurst/qbmeetingroomplugin
+redmine_bookmarks:
+  :website: http://www.ultragreen.net/projects/redmine-bookmark
+  :repository: http://www.ultragreen.net/projects/redmine-bookmark/repository
+bt4:
+  :website: https://github.com/ruby232/redmine_bt
+  :repository: https://github.com/ruby232/redmine_bt
+redmine_bots_filter: {}
+redmine_br_macro:
+  :website: https://github.com/taikii/redmine_br_macro
+  :repository: https://github.com/taikii/redmine_br_macro
+redmine_bugherd:
+  :website: http://www.bugherd.com/?utm_source=Redmine&utm_medium=integration
+  :repository: https://github.com/bugherd/redmine_bugherd
+redmine-campfire_notifications:
+  :website: https://github.com/kamui/redmine-campfire_notifications
+  :repository: https://github.com/kamui/redmine-campfire_notifications
+canned_responses:
+  :website: https://github.com/commandprompt/redmine_canned_responses
+  :repository: git://github.com/commandprompt/redmine_canned_responses.git
+redmine_carousel:
+  :website: https://github.com/gmiklaszewski/redmine_carousel
+  :repository: git@github.com:gmiklaszewski/redmine_carousel.git
+redmine_cas:
+  :website: https://forja.cenatic.es/projects/cas/
+  :repository: https://github.com/Emergya/redmine_cas
+redmine_change_issue_author:
+  :website: www.mcl.de
+  :repository: https://github.com/mcl-de/redmine_change_issue_author
+redmine_changeauthor:
+  :website: https://github.com/fragtom/Redmine-Changeauthor-Plugin
+  :repository: https://github.com/fragtom/Redmine-Changeauthor-Plugin
+redmine_charts2:
+  :website: https://github.com/pharmazone/redmine_charts2
+  :repository: https://github.com/pharmazone/redmine_charts2
+jchat:
+  :repository: https://github.com/joshsten/redmine_jchat
+redmine_chat_telegram:
+  :website: https://github.com/centosadmin/redmine_chat_telegram
+  :repository: https://github.com/centosadmin/redmine_chat_telegram.git
+redmine_checklists:
+  :website: https://www.redmineup.com/pages/plugins/checklists
+redmine_checkout:
+  :website: http://dev.holgerjust.de/projects/redmine-checkout/wiki
+  :repository: http://dev.holgerjust.de/projects/redmine-checkout/repository
+chili_videos:
+  :website: https://github.com/tomkersten/chili_videos
+  :repository: git://github.com/tomkersten/chili_videos.git
+redmine-ckeditor:
+  :website: https://github.com/a-ono/redmine_ckeditor
+  :repository: https://github.com/a-ono/redmine_ckeditor
+clear_plan:
+  :website: http://rmplus.pro/en/redmine/plugins/clear_plan
+close_column:
+  :website: https://github.com/tonymarschall/redmine_closed_column
+  :repository: https://github.com/tonymarschall/redmine_closed_column.git
+redmine_close_button:
+  :website: http://github.com/Undev/redmine_close_button
+  :repository: http://github.com/Undev/redmine_close_button
+redmine_closes_resolved_issues:
+  :website: https://github.com/Jogi1j/redmine_closes_resolved_issues
+  :repository: https://github.com/Jogi1j/redmine_closes_resolved_issues
+redmine_cmi:
+  :website: https://forja.cenatic.es/projects/cmi/
+  :repository: https://github.com/Emergya/redmine_cmi
+cmis_4_redmine_2:
+  :website: http://www.zuinqstudio.com/en/funny-experiments-downloads#lab14
+  :repository: https://github.com/zuinqstudio/cmis_4_redmine_2
+redmine_cms:
+  :website: https://www.redmineup.com/pages/plugins/cms
+line_numbers:
+  :website: https://github.com/cdwertmann/line_numbers
+  :repository: git://github.com/cdwertmann/line_numbers.git
+codehightlight_button:
+  :website: https://github.com/mediatainment/redmine_codebutton
+  :repository: https://github.com/mediatainment/redmine_codebutton
+redmine_code_review:
+  :website: http://www.r-labs.org/projects/r-labs/wiki/Code_Review_en
+  :repository: https://github.com/haru/redmine_code_review
+redmine_coderwall:
+  :repository: https://github.com/syntacticvexation/redmine_coderwall
+collapse_quotes:
+  :website: https://github.com/commandprompt/redmine_collapse_quotes
+  :repository: git://github.com/commandprompt/redmine_collapse_quotes.git
+commit_relation_editor:
+  :website: http://www.r-labs.org/projects/relation-editor
+  :repository: https://bitbucket.org/haru_iida/redmine_commit_relation_editor
+computed_custom_field:
+  :website: https://github.com/annikoff/redmine_plugin_computed_custom_field
+  :repository: https://github.com/annikoff/redmine_plugin_computed_custom_field
+redmine_app__space:
+  :website: https://github.com/maxrossello/redmine_app__space
+  :repository: https://github.com/maxrossello/redmine_app__space
+projects_view_config: {}
+contact_form:
+  :website: http://projects.andriylesyuk.com/projects/contact-form
+  :repository: http://subversion.andriylesyuk.com/contact-form
+redmine_context_menu_watchers:
+  :website: http://www.redmine.org/boards/3/topics/25978
+cookie-disclosure:
+  :repository: https://ans.disi.unitn.it/redmine/redmine_cookie_alert_plugin.git
+copy_parent_issue_id:
+  :website: https://github.com/onozaty/redmine-copy-parent-issue-id
+  :repository: https://github.com/onozaty/redmine-copy-parent-issue-id
+redmine_correct_spelling:
+  :website: http://otsukare-tion.com/2015/01/redmine_correct_spelling_plugin/
+  :repository: https://github.com/kobat987/redmine_correct_spelling
+create_multiples_time_entries:
+  :website: https://github.com/integra-consultores/create_multiple_time_entries
+  :repository: https://github.com/integra-consultores/create_multiple_time_entries
+redmine_contacts:
+  :website: https://www.redmineup.com/pages/plugins/crm
+csv_import_issues:
+  :website: http://systango.com
+  :repository: https://github.com/stpl/csv_import_issues
+csv_import_users:
+  :website: http://systango.com
+  :repository: https://github.com/stpl/csv_import_users
+redmine_custom_css:
+  :website: http://martin-denizet.com
+  :repository: https://github.com/martin-denizet/redmine_custom_css
+redmine_rt_custom_field:
+  :website: https://github.com/uberamd/redmine_rt_custom_field
+  :repository: https://github.com/uberamd/redmine_rt_custom_field
+redmine_trac_custom_field:
+  :website: https://github.com/hamletmun/redmine_trac_custom_field
+  :repository: https://github.com/hamletmun/redmine_trac_custom_field
+custom_fields_i18n:
+  :repository: https://github.com/gf59ru/RedmineCustomFieldsI18n
+redmine_custom_js:
+  :website: http://martin-denizet.com
+  :repository: https://github.com/martin-denizet/redmine_custom_js
+custom_menu:
+  :website: http://rmplus.pro/en/redmine/plugins/custom_menu
+  :repository: http://rmplus.pro/en/redmine/plugins/custom_menu
+custom-printing-export-templates:
+  :website: https://www.easyredmine.com/redmine-services/redmine-custom-design
+custom_user_fields:
+  :website: https://github.com/fanzai0403/custom_user_fields
+  :repository: https://github.com/fanzai0403/custom_user_fields
+custom-workflows:
+  :website: https://github.com/anteo/redmine_custom_workflows/wiki
+  :repository: https://github.com/anteo/redmine_custom_workflows
+customer_plugin:
+  :website: http://www.redmine.org/projects/redmine/wiki/PluginCustomer
+  :repository: https://github.com/owahab/customer_plugin
+redmine_customize_core_fields:
+  :website: https://github.com/nanego/redmine_customize_core_fields
+  :repository: https://github.com/nanego/redmine_customize_core_fields
+customize_journal_display:
+  :repository: http://redmine.diez.ws/customize_journal_display.zip
+daily_status:
+  :website: https://github.com/gs-lab/redmine_daily_status
+  :repository: https://github.com/gs-lab/redmine_daily_status
+data:
+  :website: https://redmine.ociotec.com/projects/redmine-plugin-data
+redmine_default_assign:
+  :website: https://github.com/giddie/redmine_default_assign
+  :repository: https://github.com/giddie/redmine_default_assign.git
+redmine_default_columns:
+  :website: http://www.redmine.org/boards/3/topics/11764
+redmine_repository_default_check:
+  :website: https://github.com/Undev/redmine_repository_default_check
+  :repository: https://github.com/Undev/redmine_repository_default_check
+default_roles:
+  :website: https://github.com/efigence/redmine_default_roles
+  :repository: https://github.com/efigence/redmine_default_roles
+default-version:
+  :website: https://github.com/tonymarschall/redmine_default_version
+  :repository: https://github.com/tonymarschall/redmine_default_version
+deployer:
+  :website: https://zapic0.github.io/deployer/
+  :repository: https://github.com/zapic0/deployer
+redmine_issue_detailed_tabs_time:
+  :website: https://github.com/markedagain/redmine_issue_detailed_tabs_time
+  :repository: https://github.com/markedagain/redmine_issue_detailed_tabs_time
+didyoumean:
+  :website: https://github.com/abahgat/redmine_didyoumean/wiki
+  :repository: https://github.com/abahgat/redmine_didyoumean
+redmine_diff_email:
+  :website: https://github.com/kahseng/redmine_diff_email
+  :repository: https://github.com/kahseng/redmine_diff_email
+redmine_diff_email-2014:
+  :website: https://github.com/lpirl/redmine_diff_email
+  :repository: https://github.com/lpirl/redmine_diff_email
+redmine_revision_diff:
+  :website: https://github.com/mateusmedeiros/redmine_revision_diff
+  :repository: https://github.com/mateusmedeiros/redmine_revision_diff
+digest:
+  :website: https://github.com/drewkeller/redmine_digest
+  :repository: git://github.com/drewkeller/redmine_digest.git
+redmine_disable_mail_create_issue:
+  :repository: https://github.com/ahills/redmine_disable_mail_create_issue
+dmsf:
+  :website: https://github.com/danmunn/redmine_dmsf
+  :repository: https://github.com/danmunn/redmine_dmsf
+redmine_doc_pu: {}
+redmine_documents_short:
+  :website: https://github.com/smoreau/redmine_documents_short
+  :repository: https://github.com/smoreau/redmine_documents_short
+redmine_doodles:
+  :website: https://orga.fachschaften.org/projects/redmine_doodles
+  :repository: https://orga.fachschaften.org/projects/redmine_doodles/repository
+download:
+  :website: http://projects.andriylesyuk.com/projects/download-button
+  :repository: http://subversion.andriylesyuk.com/download-button
+redmine_dropbox_attachments:
+  :website: https://github.com/alexbevi/redmine_dropbox_attachments
+  :repository: https://github.com/alexbevi/redmine_dropbox_attachments
+due_date_reminder:
+  :website: https://github.com/f0y/due_date_reminder
+  :repository: https://github.com/f0y/due_date_reminder
+redmine_list_duplicate_views:
+  :website: http://www.redmine.org/boards/3/topics/29181
+duty-schedule:
+  :website: https://github.com/artemasmith/scheduler
+  :repository: https://github.com/artemasmith/scheduler.git
+earned_value_management:
+  :website: https://www.easyredmine.com/redmine-earned-value-management-plugin
+easy_agile:
+  :website: https://github.com/SphereConsultingInc/easy_agile
+  :repository: https://github.com/SphereConsultingInc/easy_agile
+easy-baselines:
+  :website: https://www.easyredmine.com/redmine-gantt-plugin
+easy-time-sheets:
+  :website: https://www.easyredmine.com/software/advanced-project-management/120-time-sheets
+redmine_edit_custom_fields:
+  :website: https://www.frederick-thomssen.de
+  :repository: https://github.com/fathomssen/redmine_edit_custom_fields
+edit_inline: {}
+redmine_editor_preview_tab:
+  :website: https://github.com/tleish/redmine_editor_preview_tab
+  :repository: https://github.com/tleish/redmine_editor_preview_tab
+ekanban:
+  :website: https://github.com/samchen2009/ekanban
+  :repository: https://github.com/samchen2009/ekanban.git
+redmine_email_fetcher:
+  :website: https://github.com/luismaia/redmine_email_fetcher
+  :repository: https://github.com/luismaia/redmine_email_fetcher
+email_fiddler:
+  :website: https://github.com/rsvargas/redmine_email_fiddler
+  :repository: https://github.com/rsvargas/redmine_email_fiddler
+redmine_email_notification_content_filter:
+  :website: https://redmine.keep.pt/projects/redmine-email-not-content-filter
+  :repository: https://github.com/keeps/redmine_email_notification_content_filter
+redmine_notify:
+  :website: https://github.com/johnp2686/redmine_notify
+  :repository: https://github.com/johnp2686/redmine_notify
+emails_macros:
+  :website: https://github.com/garex/redmine-plugin-emails-macros
+  :repository: https://github.com/garex/redmine-plugin-emails-macros
+redmine_embedded_flash:
+  :website: https://github.com/fcrespel/redmine_embedded_flash
+  :repository: https://github.com/fcrespel/redmine_embedded_flash
+redmine_embedded_video:
+  :website: https://github.com/cforce/redmine_embedded_video
+  :repository: https://github.com/cforce/redmine_embedded_video
+redmine_emojibutton:
+  :repository: https://github.com/paginagmbh/redmine_emojibutton
+systango_hrm:
+  :website: http://www.systango.com
+  :repository: https://github.com/stpl/systango_hrm
+redmine_entity_generator:
+  :website: https://github.com/easyredmine/redmine_entity_generator
+  :repository: https://github.com/easyredmine/redmine_entity_generator
+environment-css:
+  :website: http://development.splendeo.es/projects/redm-environment-css
+  :repository: git://github.com/splendeo/redmine-environment-css.git
+redmine_equipment_status_viewer:
+  :website: http://sukima.github.com/redmine_equipment_status_viewer/
+  :repository: https://github.com/sukima/redmine_equipment_status_viewer/
+wk-time:
+  :website: http://erpmine.org/
+  :repository: https://github.com/dhanasingh/redmine_wktime
+estamation:
+  :website: https://github.com/estatic/estamation
+  :repository: https://github.com/estatic/estamation
+event_notifications:
+  :website: https://github.com/jrupesh/event_notifications
+  :repository: https://github.com/jrupesh/event_notifications.git
+redmine_evm:
+  :website: https://github.com/imaginary-cloud/redmine_evm
+  :repository: git://github.com/imaginary-cloud/redmine_evm.git
+redmine_issue_evm:
+  :website: https://github.com/momibun926/
+  :repository: https://github.com/momibun926/redmine_issue_evm
+redmine_expense_tracker:
+  :website: http://gel.ozguryazilim.com.tr/redmine_expense_tracker/
+  :repository: http://gel.ozguryazilim.com.tr/redmine_expense_tracker/
+export_docx:
+  :website: https://github.com/masweetman/export_docx
+  :repository: https://github.com/masweetman/export_docx.git
+extended_fields:
+  :website: http://projects.andriylesyuk.com/projects/extended-fields
+  :repository: http://subversion.andriylesyuk.com/extended-fields
+extended_profile:
+  :website: http://projects.andriylesyuk.com/projects/extended-profile
+  :repository: http://subversion.andriylesyuk.com/extended-profile
+extended_spent_time:
+  :website: https://github.com/Pertimm/redmine_extended_spent_time
+  :repository: https://github.com/Pertimm/redmine_extended_spent_time
+redmine_extended_watchers:
+  :website: https://github.com/maxrossello/redmine_extended_watchers
+  :repository: https://github.com/maxrossello/redmine_extended_watchers
+external_link:
+  :website: https://github.com/satoruk/redmine_external_link
+  :repository: https://github.com/satoruk/redmine_external_link
+extra_queries:
+  :website: http://rmplus.pro/en/redmine/plugins/extra_queries
+  :repository: http://rmplus.pro/en/redmine/plugins/extra_queries
+redmine_extra_query_operators:
+  :website: http://www.redmine.org/boards/3/topics/21015
+eyemine:
+  :website: https://github.com/anacro/eyemine/wiki
+  :repository: https://github.com/anacro/eyemine
+ez_assignee_founder:
+  :website: http://www.eastpiger.com
+  :repository: https://github.com/eastpiger/EZAssigneeFounder
+fancy-project-list:
+  :repository: https://lans.disi.unitn.it/redmine/redfancyprojects.git
+favorite_locations:
+  :website: https://github.com/mentel/redmine-favorite-locations
+  :repository: https://github.com/mentel/redmine-favorite-locations
+favorite_projects:
+  :website: https://www.redmineup.com/pages/plugins/favorite-projects
+favourite_issues:
+  :website: http://github.com/alvila/redmine_favourites
+  :repository: http://github.com/alvila/redmine_favourites
+redmine_favourite_projects:
+  :website: https://github.com/syntacticvexation/redmine_favourite_projects
+  :repository: git://github.com/syntacticvexation/redmine_favourite_projects.git
+redmine_fiber_support:
+  :website: https://github.com/nightweb/redmine_fiber_support
+  :repository: https://github.com/nightweb/redmine_fiber_support
+redmine_fields_permissions:
+  :website: https://github.com/resilva/Redmine-Fields-permissions
+  :repository: https://github.com/resilva/Redmine-Fields-permissions
+redmine_finance:
+  :website: https://www.redmineup.com/pages/plugins/finance
+financialmonitoring:
+  :website: https://github.com/soualid/redmine-financial-monitoring
+  :repository: https://github.com/soualid/redmine-financial-monitoring
+redmine_message_issues:
+  :website: http://martin-denizet.com
+  :repository: https://github.com/martin-denizet/redmine_message_issues
+ftp_file_server:
+  :website: https://github.com/jrupesh/file_servers.git
+  :repository: https://github.com/jrupesh/file_servers.git
+full_text_search:
+  :website: https://github.com/okkez/redmine_full_text_search
+  :repository: https://github.com/okkez/redmine_full_text_search
+redmine_elasticsearch:
+  :website: https://github.com/Restream/redmine_elasticsearch/wiki/Search-Quick-Reference
+  :repository: https://github.com/Restream/redmine_elasticsearch
+gallery_board:
+  :website: https://github.com/HarryHoliday/gallery_board.git
+  :repository: https://github.com/HarryHoliday/gallery_board.git
+redmine_gamification_plugin:
+  :website: https://github.com/mauricio-camayo/redmine_gamification_plugin
+  :repository: https://github.com/mauricio-camayo/redmine_gamification_plugin
+gantt_extension:
+  :website: https://github.com/braini75
+  :repository: https://github.com/braini75/gantt_extension.git
+redmine-gantt-menu-link:
+  :website: https://github.com/mauricio-camayo/redmine-gantt-menu-link
+  :repository: https://github.com/mauricio-camayo/redmine-gantt-menu-link
+gantt-progressive-mods:
+  :website: https://github.com/stgeneral/redmine-progressive-gantt-mods
+redmine_gantt_with_date:
+  :website: https://github.com/vividtone/redmine_gantt_with_date
+  :repository: https://github.com/vividtone/redmine_gantt_with_date
+document_library_gdrive:
+  :website: https://github.com/Mordorreal/redmine_document_library_gdrive
+  :repository: https://github.com/Mordorreal/redmine_document_library_gdrive
+redmine_gems:
+  :website: http://www.ultragreen.net/projects/redmine-gems
+  :repository: http://www.ultragreen.net/projects/redmine-gems/repository
+gist:
+  :website: 'https://github.com/dergachev/redmine_gist '
+  :repository: https://github.com/dergachev/redmine_gist
+redmine_git_remote:
+  :website: https://github.com/dergachev/redmine_git_remote
+  :repository: https://github.com/dergachev/redmine_git_remote
+redmine_create_git:
+  :website: https://github.com/martin-denizet/redmine_create_git
+  :repository: https://github.com/martin-denizet/redmine_create_git
+redmine_revision_branches:
+  :website: https://github.com/tleish/redmine_revision_branches
+  :repository: https://github.com/tleish/redmine_revision_branches
+github_commits:
+  :website: https://github.com/BoTreeConsultingTeam/github_commits
+  :repository: https://github.com/BoTreeConsultingTeam/github_commits
+redmine_github_hook:
+  :website: https://github.com/koppen/redmine_github_hook
+  :repository: https://github.com/koppen/redmine_github_hook
+redmine_github_style_fenced_code_block:
+  :website: https://github.com/taikii/redmine_github_style_fenced_code_block
+  :repository: https://github.com/taikii/redmine_github_style_fenced_code_block
+github-redmine-migration:
+  :website: https://github.com/paupauorg/github-redmine-migration/blob/master/README.md
+  :repository: https://github.com/paupauorg/github-redmine-migration
+redmine_gitlab_merge_request:
+  :website: https://github.com/pixel-cookers/redmine_gitlab_merge_request
+  :repository: https://github.com/pixel-cookers/redmine_gitlab_merge_request
+redmine_gitolite:
+  :website: https://github.com/CtrlC-Root/redmine-gitolite
+  :repository: https://github.com/CtrlC-Root/redmine-gitolite
+redmine_gitolite_hook:
+  :website: https://github.com/kahseng/redmine_gitolite_hook
+  :repository: https://github.com/kahseng/redmine_gitolite_hook
+redmine_gitosis:
+  :website: http://github.com/rocket-rentals/redmine-gitosis/issues
+  :repository: http://github.com/allen13/redmine_gitosis
+redmine_gitrevision_download:
+  :website: http://redmine.debuntu.org/projects/gitrevision-download/wiki
+  :repository: http://github.com/chantra/redmine_gitrevision_download
+global_roles:
+  :website: http://rmplus.pro/en/redmine/plugins/global_roles
+  :repository: http://rmplus.pro/en/redmine/plugins/global_roles
+glossary:
+  :website: http://www.r-labs.org/projects/rp-glossary/wiki/GlossaryEn
+  :repository: http://sourceforge.jp/projects/rp-glossary/releases/
+goals:
+  :website: http://rmplus.pro/en/redmine/plugins/goals
+google_analytics_plugin:
+  :repository: https://github.com/paginagmbh/redmine-google-analytics-plugin
+google_apps:
+  :website: https://github.com/waj/redmine_google_apps
+  :repository: https://github.com/waj/redmine_google_apps
+redmine_google_docs_plugin:
+  :website: https://github.com/pulse00/redmine_google_docs_plugin
+  :repository: git@github.com:pulse00/redmine_google_docs_plugin.git
+groupsassignee:
+  :website: https://github.com/lamps/redmine_group_assignee
+  :repository: https://github.com/lamps/redmine_group_assignee
+group_of_authors_filter:
+  :website: https://bitbucket.org/agaricus/group_of_authors_filter/overview
+  :repository: ssh://hg@bitbucket.org/agaricus/group_of_authors_filter
+groupmanager:
+  :website: https://github.com/artemasmith/groupmanager.git
+  :repository: https://github.com/artemasmith/groupmanager.git
+hackjournals:
+  :repository: https://github.com/eckucukoglu/redmine-hack-journals
+haltr:
+  :repository: https://github.com/descala/haltr
+redmine_harvest_timelog:
+  :website: http://github.com/railsant/redmine_harvest_timelog
+  :repository: git://github.com/railsant/redmine_harvest_timelog.git
+redmine_contacts_helpdesk:
+  :website: https://www.redmineup.com/pages/plugins/helpdesk
+hide-emails:
+  :website: http://development.splendeo.es/projects/redm-hide-emails
+  :repository: git://github.com/splendeo/redmine_hide_emails_by_default.git
+redmine_hide_estimated_hours:
+  :website: http://return1.at/
+  :repository: https://github.com/return1/redmine_hide_estimated_hours
+redmine_hide_estimated_hours_permission:
+  :website: https://github.com/javiferrer/redmine_hide_estimated_hours_permission
+  :repository: https://github.com/javiferrer/redmine_hide_estimated_hours_permission
+hide_issue_description:
+  :website: https://github.com/tkusukawa/hide_issue_description
+  :repository: https://github.com/tkusukawa/hide_issue_description
+hide_journal_details:
+  :website: https://github.com/nexx512/hide_journal_details
+  :repository: https://github.com/nexx512/hide_journal_details
+sidebar_hide:
+  :website: https://github.com/bdemirkir/sidebar_hide
+  :repository: https://github.com/bdemirkir/sidebar_hide
+hide_user_profile: {}
+ldap_users_sync:
+  :website: http://rmplus.pro/en/redmine/plugins/ldap_users_sync
+redmine_hipchat_per_project:
+  :website: https://github.com/digitalnatives/redmine_hipchat_per_project
+  :repository: https://github.com/digitalnatives/redmine_hipchat_per_project
+holidays:
+  :website: https://github.com/IceskYsl/holidays
+  :repository: https://github.com/IceskYsl/holidays
+redmine_home_page_redirector:
+  :website: https://github.com/jmlagace/redmine_home_page_redirector
+  :repository: https://github.com/jmlagace/redmine_home_page_redirector
+redmine_scm_hookhelpers:
+  :website: https://github.com/lpirl/redmine_scm_hookhelpers
+  :repository: https://github.com/lpirl/redmine_scm_hookhelpersT
+hooks_manager:
+  :website: http://projects.andriylesyuk.com/projects/hooks-manager
+  :repository: http://subversion.andriylesyuk.com/hooks-manager
+redmine_hoptoad_server_v2:
+  :website: https://github.com/milgner/redmine_hoptoad_server_v2/
+  :repository: https://github.com/milgner/redmine_hoptoad_server_v2/
+redmine_hotkeys_js:
+  :website: https://github.com/sasha-ch/redmine_hotkeys_js
+  :repository: https://github.com/sasha-ch/redmine_hotkeys_js
+redmine_hourglass:
+  :website: https://github.com/hicknhack-software/redmine_hourglass
+  :repository: https://github.com/hicknhack-software/redmine_hourglass
+t-ando_redmine_hudson:
+  :website: http://www.r-labs.org/
+  :repository: https://bitbucket.org/nobiinu_and/redmine_hudson
+redmine_ical:
+  :website: https://orga.fachschaften.org/projects/redmine_ical
+  :repository: https://orga.fachschaften.org/projects/redmine_ical/repository
+redmine_idonethis:
+  :website: https://github.com/aminland/redmine-idonethis
+  :repository: https://github.com/aminland/redmine-idonethis
+image_uploader_2_2_2: {}
+ckfinder_for_redmine: {}
+impasse:
+  :website: http://kawasima.github.com/redmine_impasse/
+  :repository: https://github.com/kawasima/redmine_impasse/
+redmine_issues_from_excel:
+  :website: http://happiestminds.com
+  :repository: https://github.com/redminehappiestminds/redmine_issues_from_excel
+importer:
+  :website: https://github.com/leovitch/redmine_importer
+  :repository: https://github.com/leovitch/redmine_importer
+redmine_improved_searchbox:
+  :website: https://github.com/ries-tech/redmine_improved_searchbox
+  :repository: https://github.com/ries-tech/redmine_improved_searchbox
+redmine_app_notifications:
+  :website: https://github.com/michalvanzura/redmine_app_notifications
+  :repository: https://github.com/michalvanzura/redmine_app_notifications
+redminedonayincentify:
+  :website: http://www.donay.com/
+  :repository: http://svn.donay.com/donay_incentify/downloads/redmine/
+redmine_incoming_emails:
+  :website: https://github.com/markwhitfeld/redmine_incoming_emails
+  :repository: https://github.com/markwhitfeld/redmine_incoming_emails
+redmine_mail_handler_clean_body_regexp:
+  :repository: https://github.com/ahills/redmine_mailclean_regexp
+workflow_initial_status:
+  :repository: https://github.com/Jaeder42/InitialStatusRedminePlugin
+initr:
+  :repository: https://github.com/descala/initr
+redmine_inline_note_images_plugin:
+  :website: https://github.com/anjlab/redmine_inline_note_images_plugin
+  :repository: https://github.com/anjlab/redmine_inline_note_images_plugin
+redmine_intouch:
+  :website: https://github.com/centosadmin/redmine_intouch
+  :repository: https://github.com/centosadmin/redmine_intouch.git
+redmine_contacts_invoices:
+  :website: https://www.redmineup.com/pages/plugins/invoices
+issue_repo_history_merge:
+  :website: https://github.com/raafael911/issue_repo_history_merge
+  :repository: https://github.com/raafael911/issue_repo_history_merge
+redmine_issue_badge:
+  :website: https://github.com/akiko-pusu/redmine_issue_badge
+  :repository: https://github.com/akiko-pusu/redmine_issue_badge
+redmine_issue_changesets_view_link_github:
+  :website: http://github.com/ippeiukai/redmine_issue_changesets_view_link_github
+  :repository: http://github.com/ippeiukai/redmine_issue_changesets_view_link_github
+issue_charts:
+  :website: https://github.com/masweetman/issue_charts
+  :repository: https://github.com/masweetman/issue_charts.git
+redmine_issue_cloner:
+  :website: https://github.com/evgenii/redmine_issue_cloner
+  :repository: https://github.com/evgenii/redmine_issue_cloner
+closed_date:
+  :website: https://github.com/ashton/redmine_closed_issue
+  :repository: https://github.com/ashton/redmine_closed_issue
+redmine_percent_done:
+  :website: http://redmine-search.com/redmine-issue-done-ratio-plugin
+  :repository: https://github.com/jkraemer/redmine_percent_done.git
+redmine_issue_favicon:
+  :repository: https://github.com/akiko-pusu/redmine_issue_favicon
+redmine_issue_field_visibility:
+  :website: https://github.com/planio-gmbh/redmine_issue_field_visibility
+  :repository: https://github.com/planio-gmbh/redmine_issue_field_visibility.git
+redmine_issue_from_message:
+  :website: http://www.redmine.org/boards/3/topics/25979
+redmine_issue_history:
+  :website: http://apmpc.dp.ua/en/coding/ruby/ruby-on-rails/21-redmine-issue-history.html
+  :repository: https://github.com/freedayko/redmine_issue_history
+issue_hot_buttons:
+  :website: http://thumbtack-technology.github.com/redmine-issue-hot-buttons/
+  :repository: https://github.com/thumbtack-technology/redmine-issue-hot-buttons
+issue_importer_xls:
+  :website: http://www.aspiresoftware.in/index.php
+  :repository: https://github.com/aspiresoftware/redmine-import-tasks
+involvement_filter:
+  :website: https://github.com/commandprompt/redmine_involvement_filter
+  :repository: git://github.com/commandprompt/redmine_involvement_filter.git
+issue_mail_with_attachments:
+  :website: https://github.com/team888/redmine-issue_mail_with_attachments-plugin
+  :repository: https://github.com/team888/redmine-issue_mail_with_attachments-plugin
+issue_notification:
+  :website: https://github.com/evgenii/redmine_issue_notification
+  :repository: https://github.com/evgenii/redmine_issue_notification
+redmine_issue_open_date:
+  :website: https://github.com/centosadmin/redmine_issue_open_date
+  :repository: https://github.com/centosadmin/redmine_issue_open_date.git
+issuestats:
+  :repository: https://github.com/eckucukoglu/redmine-issue-statistics
+issue-status-auto-open:
+  :website: https://github.com/savoirfairelinux/redmine-issue-status-auto-open
+  :repository: https://github.com/savoirfairelinux/redmine-issue-status-auto-open
+issue_table_macro: {}
+redmine_issue_tabs:
+  :website: http://rmplus.pro/en/redmine/plugins/issue_tabs
+  :repository: http://rmplus.pro/en/redmine/plugins/issue_tabs
+redmine_issue_template:
+  :website: https://github.com/Undev/redmine_issue_template
+  :repository: https://github.com/Undev/redmine_issue_template
+redmine_issue_templates:
+  :website: http://www.r-labs.org/projects/issue-template
+  :repository: https://github.com/akiko-pusu/redmine_issue_templates
+redmine_issue_todo_lists:
+  :website: https://github.com/canidas/redmine_issue_todo_lists
+  :repository: https://github.com/canidas/redmine_issue_todo_lists
+itol:
+  :website: http://www.wilutions.com/joa/itol.html
+  :repository: https://github.com/wolfgangimig/itol
+redmine_vote:
+  :website: https://github.com/cforce/redmine_vote
+  :repository: https://github.com/cforce/redmine_vote.git
+redmine_issue_weight:
+  :website: http://gel.ozguryazilim.com.tr/redmine_issue_weight/
+  :repository: http://gel.ozguryazilim.com.tr/redmine_issue_weight/
+issue_id:
+  :website: http://projects.andriylesyuk.com/project/redmine/issue-id
+  :repository: http://subversion.andriylesyuk.com/issue-id
+issuefy:
+  :website: https://github.com/tchx84/issuefy
+  :repository: https://github.com/tchx84/issuefy.git
+redmine_issuelimits:
+  :website: https://github.com/bodun/redmine_issuelimits
+  :repository: https://github.com/bodun/redmine_issuelimits
+joomla-redmine-bridge: {}
+redmine_json_rpc:
+  :website: http://trs.io
+  :repository: https://github.com/TeamRocketScience/redmine_json_rpc
+redmine_jstoolbar_ext_buttons:
+  :website: https://github.com/tleish/redmine_jstoolbar_ext_buttons
+  :repository: https://github.com/tleish/redmine_jstoolbar_ext_buttons.git
+redmine_jstoolbar_ext_coderay:
+  :website: https://github.com/tleish/redmine_jstoolbar_ext_coderay
+  :repository: https://github.com/tleish/redmine_jstoolbar_ext_coderay.git
+redmine_jstoolbar_ext_images:
+  :website: https://github.com/tleish/redmine_jstoolbar_ext_images
+  :repository: https://github.com/tleish/redmine_jstoolbar_ext_images.git
+kanbantool:
+  :website: www.gyselroth.com
+  :repository: https://github.com/gyselroth/redmine-plugin-kanbantool
+redmine_knowledgebase:
+  :website: https://github.com/alexbevi/redmine_knowledgebase
+  :repository: https://github.com/alexbevi/redmine_knowledgebase
+kpi:
+  :website: http://rmplus.pro/en/redmine/plugins/kpi
+landing_page:
+  :website: https://github.com/biow0lf/redmine_landing_page
+  :repository: https://github.com/biow0lf/redmine_landing_page.git
+language_fallback:
+  :website: http://github.com/friflaj/redmine_language_fallback
+  :repository: http://github.com/friflaj/redmine_language_fallback
+latch:
+  :website: https://latch.elevenpaths.com
+  :repository: https://github.com/ElevenPaths/latch-plugin-redmine
+redmine_last_messages:
+  :website: http://www.redmine.org/projects/redmine/wiki/PluginLatestForumMessages
+latest-issues:
+  :website: http://www.gogolek.co.uk/projects/latest-issues-redmine-plugin
+  :repository: https://github.com/kgogolek/latest-issues-redmine-plugin
+redmine_gemavatar:
+  :website: https://bitbucket.org/celebdor/gemavatar/
+  :repository: https://bitbucket.org/celebdor/gemavatar/
+gemavatar:
+  :website: https://gitlab.com/aguarino/gemavatar
+  :repository: https://gitlab.com/aguarino/gemavatar
+geminfo:
+  :website: https://bitbucket.org/celebdor/geminfo
+  :repository: https://bitbucket.org/celebdor/geminfo
+ldap-ou-to-group:
+  :website: https://github.com/yzhanginwa/redmine_ldap_ou_to_group
+  :repository: https://github.com/yzhanginwa/redmine_ldap_ou_to_group
+redmine_ld_rize:
+  :website: https://github.com/matobaa/redmine_ld_rize
+  :repository: https://github.com/matobaa/redmine_ld_rize
+leave_management_system:
+  :website: http://www.logicmatter.com
+  :repository: https://github.com/johnson-logicmatter/leave_management_system
+redmine_lightbox2:
+  :website: https://github.com/paginagmbh/redmine_lightbox2
+  :repository: https://github.com/paginagmbh/redmine_lightbox2.git
+redmine_lightbox:
+  :website: http://www.rb2.nl
+  :repository: https://github.com/zipme/redmine_lightbox
+like:
+  :website: http://projects.andriylesyuk.com/projects/like-button
+  :repository: http://subversion.andriylesyuk.com/like-button
+linked_time_entries:
+  :repository: https://github.com/sharpyfox/linked_time_entries.git
+list-of-roles-members:
+  :website: https://github.com/savoirfairelinux/redmine-list-of-roles-members
+  :repository: https://github.com/savoirfairelinux/redmine-list-of-roles-members
+redmine_local_avatars_003:
+  :website: https://github.com/Syr3f/redmine_local_avatars_003
+  :repository: https://github.com/Syr3f/redmine_local_avatars_003/tarball/master
+localizable:
+  :website: https://redmine.ociotec.com/projects/localizable
+  :repository: https://redmine.ociotec.com/projects/localizable/files
+redmine_login_audit:
+  :website: http://martin-denizet.com
+  :repository: https://github.com/martin-denizet/redmine_login_audit
+login_attempts_limit:
+  :website: https://github.com/midnightSuyama/redmine_login_attempts_limit
+  :repository: https://github.com/midnightSuyama/redmine_login_attempts_limit
+redmine_logs:
+  :website: http://www.r-labs.org/projects/r-labs/wiki/Logs_en
+  :repository: https://github.com/haru/redmine_logs
+redmine_osx_ids:
+  :website: http://www.briandwells.com/main/Blog/Entries/2009/12/19_Redmine_authentication_plugin_for_Mac_OS_X.html
+  :repository: https://github.com/brianwells/redmine_osx_ids
+magic_my_page:
+  :website: http://rmplus.pro/en/redmine/plugins/magic_my_page
+mail_shaper:
+  :website: http://gel.ozguryazilim.com.tr/redmine_mail_shaper/
+  :repository: http://gel.ozguryazilim.com.tr/redmine_mail_shaper/
+redmine_mailstatus:
+  :website: https://github.com/jbutz/redmine_mailstatus
+  :repository: https://github.com/jbutz/redmine_mailstatus
+redmine_maintenance_mode:
+  :repository: https://github.com/tofi86/redmine_maintenance_mode
+manage_wiki_view_page_permission:
+  :website: http://www.systango.com
+  :repository: https://github.com/stpl/manage_wiki_view_page_permission
+m2r:
+  :website: http://mantis2redmine.com
+  :repository: http://mantis2redmine.com
+meetings:
+  :website: https://github.com/integra-consultores/meetings
+  :repository: https://github.com/integra-consultores/meetings
+redmine_meetings:
+  :website: https://github.com/amartel/redmine_meetings
+  :repository: git://github.com/amartel/redmine_meetings.git
+mega_calendar:
+  :website: http://www.devbert.de/index.php/en/project/megacalendar/
+  :repository: https://github.com/berti92/mega_calendar
+redmine_mermaid_macro:
+  :website: https://github.com/taikii/redmine_mermaid_macro
+  :repository: https://github.com/taikii/redmine_mermaid_macro
+meta:
+  :website: http://projects.andriylesyuk.com//projects/meta
+  :repository: http://subversion.andriylesyuk.com/meta
+redmine_msteams:
+  :website: https://github.com/simplethings/redmine-msteams
+  :repository: https://github.com/simplethings/redmine-msteams.git
+redmine_milestones:
+  :website: http://redminecrm.com
+  :repository: git://github.com/k41n/redmine_milestones.git
+modal_windows:
+  :website: http://rmplus.pro
+  :repository: https://github.com/dkuk/modal_windows
+monitoring-controlling:
+  :website: http://alexmonteiro.github.com/Redmine-Monitoring-Controlling/
+  :repository: https://github.com/alexmonteiro/Redmine-Monitoring-Controlling
+redmine_move_comments:
+  :website: https://github.com/VoronyukM/redmine_move_comments
+  :repository: https://github.com/VoronyukM/redmine_move_comments
+redmine_document_move:
+  :website: https://github.com/smoreau/redmine_document_move
+  :repository: https://github.com/smoreau/redmine_document_move
+redmine_multi_calendar:
+  :website: https://github.com/ksfltd/redmine_multi_calendar
+  :repository: git@github.com:ksfltd/redmine_multi_calendar.git
+redmine_multi_hosts:
+  :website: https://github.com/florianeck/redmine_multi_hosts
+  :repository: https://github.com/florianeck/redmine_multi_hosts
+multi_time_tracker:
+  :website: https://github.com/raafael911/multi_time_tracker
+  :repository: https://github.com/raafael911/multi_time_tracker
+redmine_multiprojects_issue:
+  :website: https://github.com/nanego/redmine_multiprojects_issue
+  :repository: https://github.com/nanego/redmine_multiprojects_issue
+redmine_multipass:
+  :website: https://github.com/jozefvaclavik/redmine_multipass
+  :repository: https://github.com/jozefvaclavik/redmine_multipass
+redmine_multiple_files_upload:
+  :website: http://www.redmine.org/boards/3/topics/29794
+my_page_queries:
+  :website: http://github.com/alvila/redmine_my_page_queries
+  :repository: http://github.com/alvila/redmine_my_page_queries
+redmine_my_page_queries:
+  :website: https://github.com/AllTaken/redmine_my_page_queries
+  :repository: https://github.com/AllTaken/redmine_my_page_queries
+my_projects:
+  :website: https://github.com/peelman/my_projects
+  :repository: https://github.com/peelman/my_projects
+gsc_my_projects:
+  :website: https://github.com/generaldesoftware/RedMine-My-Projects-Plugin#readme
+  :repository: https://github.com/generaldesoftware/RedMine-My-Projects-Plugin
+my_roadmaps:
+  :website: http://www.redmine.org/plugins/my_roadmaps
+  :repository: https://github.com/clueware/redmine_my_roadmaps
+newissuealertlist:
+  :website: https://github.com/jbutz/newissuealertlist
+  :repository: https://github.com/jbutz/newissuealertlist
+redmine_newissuealerts:
+  :website: http://github.com/chantra/redmine_newissuealerts
+  :repository: http://github.com/chantra/redmine_newissuealerts
+redmine_create_wiki_page:
+  :website: https://github.com/peplin/redmine_create_wiki_page
+  :repository: https://github.com/peplin/redmine_create_wiki_page
+niko_cale:
+  :website: https://github.com/YukiKita/redmine_niko_cale
+  :repository: https://github.com/YukiKita/redmine_niko_cale
+redmine_nikoniko_calendar2:
+  :website: https://github.com/piccagliani/redmine_nikoniko_calendar2
+  :repository: https://github.com/piccagliani/redmine_nikoniko_calendar2
+redmine_non_member_watcher:
+  :website: https://github.com/Undev/redmine_non_member_watcher
+  :repository: https://github.com/Undev/redmine_non_member_watcher
+notifo:
+  :website: https://github.com/taktsoft/redmine_notifo
+  :repository: https://github.com/taktsoft/redmine_notifo
+notify_custom_users:
+  :website: https://github.com/Undev/notify_custom_users
+  :repository: https://github.com/Undev/notify_custom_users
+nu_mobile_viewer:
+  :website: http://www.nunet.co.jp/redmine/
+  :repository: https://github.com/NunetInc/redmine_nu_mobile_viewer
+object-storage-plugin:
+  :website: https://github.com/nttcom/redmine_objectstorage
+  :repository: https://github.com/nttcom/redmine_objectstorage.git
+redmine_omniauth_cas:
+  :website: http://github.com/jbbarth/redmine_omniauth_cas
+  :repository: http://github.com/jbbarth/redmine_omniauth_cas
+once_assigned_ever_watcher:
+  :website: https://github.com/raafael911/redmine_once_assigned_ever_watcher
+  :repository: https://github.com/raafael911/redmine_once_assigned_ever_watcher
+redmine_open_links_in_new_window:
+  :website: https://github.com/Undev/redmine_open_links_in_new_window
+  :repository: https://github.com/Undev/redmine_open_links_in_new_window
+redmine_openid_connect:
+  :website: https://github.com/devopskube/redmine_openid_connect
+  :repository: https://github.com/devopskube/redmine_openid_connect
+openid_fix:
+  :website: http://projects.andriylesyuk.com/projects/openid-fix
+  :repository: http://subversion.andriylesyuk.com/openid-fix
+openid-selector:
+  :website: http://projects.jorgebg.com/projects/redmine-openid-selector
+  :repository: https://github.com/jorgebg/redmine-openid-selector
+openpgp:
+  :website: https://github.com/C3S/redmine_openpgp/blob/master/README.rst
+  :repository: https://github.com/C3S/redmine_openpgp
+redmine_opensearch:
+  :website: http://dev.holgerjust.de/projects/redmine-opensearch/wiki
+  :repository: http://dev.holgerjust.de/projects/redmine-opensearch/repository
+orangutan:
+  :website: http://projects.andriylesyuk.com/projects/orangutan
+  :repository: http://subversion.andriylesyuk.com/orangutan/
+outlook_redmine_issue_creator_addin:
+  :website: https://github.com/raidensan/RedMineIssueCreator
+  :repository: https://github.com/raidensan/RedMineIssueCreator
+redmine_msg_preview:
+  :website: http://www.alexbevi.com/projects/redmine-msg-preview
+  :repository: https://github.com/alexbevi/redmine_msg_preview
+redmine_parent_issue_filter:
+  :website: https://github.com/onozaty/redmine-parent-issue-filter
+  :repository: https://github.com/onozaty/redmine-parent-issue-filter
+parking-lot-chart:
+  :website: http://daipresents.com/2010/redmine_parking_lot_chart_plugin/
+  :repository: https://github.com/daipresents/redmine_parking_lot_chart
+redmine_image_clipboard_paste:
+  :website: https://github.com/thorin/redmine_image_clipboard_paste
+  :repository: https://github.com/thorin/redmine_image_clipboard_paste
+pastebin:
+  :website: https://github.com/commandprompt/redmine_pastebin
+  :repository: git://github.com/commandprompt/redmine_pastebin.git
+pastime: {}
+redmine_people:
+  :website: https://www.redmineup.com/pages/plugins/people
+per-project-formatting:
+  :website: https://github.com/a-ono/redmine_per_project_formatting
+  :repository: https://github.com/a-ono/redmine_per_project_formatting
+redmine_periodic_task:
+  :website: https://github.com/jperelli/Redmine-Periodic-Task/
+  :repository: https://github.com/jperelli/Redmine-Periodic-Task/
+periodictasks:
+  :website: https://github.com/myneid/Redmine-Periodic-Task
+  :repository: git://github.com/myneid/Redmine-Periodic-Task.git
+permission_to_upload: {}
+plantuml:
+  :website: https://github.com/dkd/plantuml
+  :repository: https://github.com/dkd/plantuml
+redmine_print_issue:
+  :website: https://github.com/tacid/redmine_print_issue
+  :repository: https://github.com/tacid/redmine_print_issue
+redmine_plugin_views_revisions:
+  :website: http://www.redmine.org/boards/3/topics/31183
+plus_gantt:
+  :website: https://github.com/luciof55/plus_gantt/wiki/Plus-Gantt
+  :repository: https://github.com/luciof55/plus_gantt
+redmine_postgresql_search:
+  :website: http://redmine-search.com/
+  :repository: https://github.com/jkraemer/redmine_postgresql_search.git
+redmine_fulmo_helper:
+  :website: http://ciklone.com/en/fulmo/
+  :repository: https://github.com/opengroove/redmine_fulmo_helper
+pretty_news_urls:
+  :website: https://github.com/ethackal/redmine-pretty-news-urls-plugin
+  :repository: https://github.com/ethackal/redmine-pretty-news-urls-plugin
+redmine_preview_attach_column:
+  :website: http://www.redmine.org/boards/3/topics/29795
+redmine_priorities_duedate_js:
+  :website: https://github.com/cmrd-senya/redmine_priorities_duedate_js
+  :repository: https://github.com/cmrd-senya/redmine_priorities_duedate_js
+private_note_enforcement:
+  :website: https://github.com/githubnemo/Redmine-Private-Note-Enforcment
+  :repository: https://github.com/githubnemo/Redmine-Private-Note-Enforcment
+private_wiki:
+  :website: https://github.com/f0y/redmine_private_wiki
+  :repository: https://github.com/f0y/redmine_private_wiki
+process_framework: {}
+redmine_products:
+  :website: https://www.redmineup.com/pages/plugins/products
+redmine_profile_email_domain_whitelist:
+  :website: https://github.com/Undev/redmine_profile_email_domain_whitelist
+  :repository: https://github.com/Undev/redmine_profile_email_domain_whitelist
+progressive-projects-list:
+  :website: http://stgeneral.github.io/redmine-progressive-projects-list/
+  :repository: https://github.com/stgeneral/redmine-progressive-projects-list
+project_section:
+  :website: http://projects.andriylesyuk.com/projects/project-sections
+  :repository: http://subversion.andriylesyuk.com/project-sections
+project_colors:
+  :website: https://gitlab.graph-ic.org/manolopm/project_colors
+  :repository: https://gitlab.graph-ic.org/manolopm/project_colors
+redmine_custom_values_per_project:
+  :website: https://github.com/javiferrer/redmine_custom_values_projects
+  :repository: https://github.com/javiferrer/redmine_custom_values_projects
+project-filter:
+  :website: http://development.splendeo.es/projects/redm-project-filter
+  :repository: git://github.com/splendeo/redmine_project_filtering.git
+redmine_project_filtering:
+  :repository: https://github.com/bluezio/redmine_project_filtering
+project_alias:
+  :website: http://projects.andriylesyuk.com/projects/project-alias
+  :repository: http://subversion.andriylesyuk.com/project-alias
+redmine_project_alias_2:
+  :website: https://github.com/paginagmbh/redmine_project_alias_2
+  :repository: https://github.com/paginagmbh/redmine_project_alias_2.git
+project_overview:
+  :website: https://github.com/mbasset/project_overview
+  :repository: git@github.com:mbasset/project_overview.git
+project_removal:
+  :website: http://projects.andriylesyuk.com/projects/project-removal
+  :repository: http://subversion.andriylesyuk.com/project-removal
+redmine_project_team:
+  :website: https://bitbucket.org/eauvinet/redmine_project_team
+  :repository: https://bitbucket.org/eauvinet/redmine_project_team
+redmine-projects-accordion:
+  :website: http://reuben.mallaby.me
+  :repository: https://github.com/reubenmallaby/redmine_projects_accordion
+projects_show:
+  :website: http://github.com/speedy32129/projects_show
+  :repository: http://github.com/speedy32129/projects_show
+projects_table:
+  :website: https://github.com/denispeplin/redmine-projects-table
+  :repository: https://github.com/denispeplin/redmine-projects-table
+projects_tracker:
+  :website: https://github.com/praveen0202/redmine_projects_tracker
+  :repository: https://github.com/praveen0202/redmine_projects_tracker
+projectstreeview:
+  :website: http://www.redmine.org/boards/3/topics/4645
+  :repository: https://github.com/cforce/projects_tree_view/network
+projectstyle:
+  :website: http://nestor.opensequoia.net/redmineplugins/
+redmine_pushover:
+  :website: http://redmine-search.com/pushover
+  :repository: https://github.com/jkraemer/redmine_pushover.git
+redmine_questions:
+  :website: https://www.redmineup.com/pages/plugins/questions
+redmine_qa_contact:
+  :website: https://github.com/kushali/redmine_qa_contact
+  :repository: https://github.com/kushali/redmine_qa_contact
+redmine_quarter:
+  :website: https://github.com/lefin17/wiki
+  :repository: https://github.com/lefin17/quarter
+query_with_version:
+  :website: https://github.com/tq-jappy/redmine_query_with_version
+  :repository: https://github.com/tq-jappy/redmine_query_with_version
+question_plugin:
+  :website: https://github.com/integra-consultores/questions
+  :repository: https://github.com/integra-consultores/questions
+quick_edit:
+  :website: https://sourceforge.jp/projects/quickedit/simple/
+  :repository: git://git.sourceforge.jp/gitroot/quickedit/quick_edit.git
+quick_add_issue:
+  :website: http://everlabs.com/
+  :repository: https://github.com/everlabs/quick_issue
+quick-project-planner:
+  :website: http://www.easyredmine.com/
+quick_view:
+  :website: http://sourceforge.jp/projects/quickedit/releases/p14327
+  :repository: git://git.sourceforge.jp/gitroot/quickedit/quick_view.git
+wiki_r_plugin:
+  :website: https://github.com/cdwertmann/redmine_wiki_r_plugin
+  :repository: git://github.com/cdwertmann/redmine_wiki_r_plugin.git
+redmine_rd_formatter:
+  :website: http://github.com/yugui/redmine_rd_formatter
+  :repository: http://github.com/yugui/redmine_rd_formatter
+readme_at_repositories:
+  :website: https://github.com/simeji/readme_at_repositories
+  :repository: https://github.com/simeji/readme_at_repositories
+recaptcha:
+  :website: https://github.com/cdwertmann/recaptcha
+  :repository: https://github.com/cdwertmann/recaptcha.git
+receive_imap_emails_anonymously_patch:
+  :website: https://bitbucket.org/arnekolja/receive-imap-emails-anonymously-redmine-plugin
+  :repository: https://bitbucket.org/arnekolja/receive-imap-emails-anonymously-redmine-plugin
+redmine_recurring_tasks:
+  :website: https://github.com/centosadmin/redmine_recurring_tasks
+  :repository: https://github.com/centosadmin/redmine_recurring_tasks.git
+recurring-tasks:
+  :website: https://github.com/nutso/redmine-plugin-recurring-tasks
+  :repository: https://github.com/nutso/redmine-plugin-recurring-tasks
+redcase:
+  :website: https://github.com/bugzinga/redcase
+  :repository: https://github.com/bugzinga/redcase.git
+reddrop:
+  :website: https://github.com/alrick/Reddrop
+  :repository: https://github.com/alrick/Reddrop
+redfire:
+  :website: https://github.com/carlosbrb/redfire
+  :repository: https://github.com/carlosbrb/redfire
+redhopper:
+  :website: https://git.framasoft.org/infopiiaf/redhopper/blob/master/README.md
+  :repository: https://git.framasoft.org/infopiiaf/redhopper
+red_jenkins:
+  :website: https://github.com/Pepperrs/red_jenkins
+  :repository: https://github.com/Pepperrs/red_jenkins
+redmine_rubycas:
+  :repository: https://github.com/brandonaaron/redmine_rubycas
+redmine4cs:
+  :website: https://cryptostocks.com
+  :repository: https://github.com/Cryptostocks/redmine4cs
+redmine_account_lockable:
+  :website: https://github.com/matsukei/redmine_account_lockable
+  :repository: https://github.com/matsukei/redmine_account_lockable.git
+redmine_account_policy:
+  :website: https://github.com/go2null/redmine_account_policy
+  :repository: https://github.com/go2null/redmine_account_policy
+redmine_activerecord_session_store:
+  :repository: https://github.com/pencil/redmine_activerecord_session_store
+redmine_add_to_calendar:
+  :website: https://github.com/hidakatsuya/redmine_add_to_calendar
+  :repository: https://github.com/hidakatsuya/redmine_add_to_calendar
+redmine_admin_access:
+  :website: https://github.com/xeagle2/redmine_admin_access
+  :repository: https://github.com/xeagle2/redmine_admin_access
+redmine_all_files:
+  :website: https://github.com/twinslash/redmine_all_files
+  :repository: https://github.com/twinslash/redmine_all_files
+redmine_amp:
+  :website: https://github.com/yoshida-mediba/redmine_amp
+redmine_analytics:
+  :website: https://github.com/dchbx/redmine_analytics
+  :repository: https://github.com/dchbx/redmine_analytics
+redmine_another_page:
+  :website: https://github.com/BlueXML/redmine_another_page
+  :repository: https://github.com/BlueXML/redmine_another_page
+redmine_attach_screenshot_2:
+  :website: https://bitbucket.org/StrangeWill/redmine-inline-attach-screenshot/
+  :repository: https://bitbucket.org/StrangeWill/redmine-inline-attach-screenshot/
+redmine_audit:
+  :repository: https://github.com/sho-h/redmine_audit
+redmine_auto_assign_group:
+  :website: https://github.com/two-pack/redmine_auto_assign_group
+  :repository: https://github.com/two-pack/redmine_auto_assign_group
+redmine-autowatch:
+  :website: https://github.com/ZIMK/Redmine-AutoWatch
+  :repository: https://github.com/ZIMK/Redmine-AutoWatch.git
+redmine: {}
+redmine_bitbucket:
+  :website: https://bitbucket.org/steveqian/redmine_bitbucket
+  :repository: https://bitbucket.org/steveqian/redmine_bitbucket
+redmine_boards:
+  :website: https://github.com/liwei78/redmine_boards
+  :repository: https://github.com/liwei78/redmine_boards.git
+redmine_bonds:
+  :website: http://smart-story.ru/products/software/redmine-bonds/
+redmine_bootstrap:
+  :website: https://github.com/reubenmallaby/redmine_bootstrap
+  :repository: https://github.com/reubenmallaby/redmine_bootstrap
+redmine_bootstrap_kit:
+  :website: http://jbox-web.github.io/redmine_bootstrap_kit/
+  :repository: https://github.com/jbox-web/redmine_bootstrap_kit
+redmine_bootstrap2:
+  :website: http://sandeepleo11.blogspot.in/2014/11/redmine-bootstrap-theme.html
+redmine_budget:
+  :website: http://redmineplugins.omegacode.pl/redmine_budget
+redmine_buildbot:
+  :website: http://subforge.org/projects/redmine_buildbot/wiki
+  :repository: http://hg.subforge.org/redmine_buildbot/
+redmine_bulk_user_assignments:
+  :website: https://github.com/oregonstateuniv/Redmine-Bulk-User-Assignments
+  :repository: https://github.com/oregonstateuniv/Redmine-Bulk-User-Assignments.git
+redmine-calculators:
+  :website: https://www.easyredmine.com/redmine-calculators
+redmine_cancel_button:
+  :website: https://github.com/kfranckiewicz/redmine_cancel_button/wiki
+  :repository: https://github.com/kfranckiewicz/redmine_cancel_button
+redmine-cas:
+  :website: https://github.com/ninech/redmine_cas
+  :repository: https://github.com/ninech/redmine_cas
+redmine_category_tree:
+  :website: https://github.com/bpat1434/redmine_category_tree
+  :repository: https://github.com/bpat1434/redmine_category_tree
+redmine_chat:
+  :website: https://bitbucket.org/39648421
+  :repository: https://bitbucket.org/39648421/redmine_chat
+redmine-chat:
+  :website: https://www.easyredmine.com/redmine-chat
+redmine_chatwork:
+  :website: https://github.com/hokkey/redmine_chatwork
+  :repository: https://github.com/hokkey/redmine_chatwork
+redmine_chuck_norris:
+  :website: http://www.zuinqstudio.com
+  :repository: https://github.com/zuinqstudio/redmine_chuck_norris
+ckeditor:
+  :website: https://github.com/a-ono/redmine_ckeditor
+  :repository: https://github.com/a-ono/redmine_ckeditor
+redmine_cmis:
+  :website: http://www.zuinqstudio.com
+  :repository: https://github.com/zuinqstudio/redmine_cmis
+redmine_codemirror:
+  :website: https://github.com/gjroelofs/redmine_codemirror
+  :repository: https://github.com/gjroelofs/redmine_codemirror
+redmine_commentary_order_patch:
+  :website: https://github.com/BlueXML/redmine_commentary_order_patch
+  :repository: https://github.com/BlueXML/redmine_commentary_order_patch
+common_mark:
+  :website: https://github.com/okkez/redmine_common_mark
+  :repository: https://github.com/okkez/redmine_common_mark
+redmine_contacter:
+  :website: https://github.com/jperelli/redmine_contacter
+  :repository: https://github.com/jperelli/redmine_contacter
+redmine_contracts_with_time_tracking:
+  :website: https://github.com/upgradeya/redmine-contracts-with-time-tracking-plugin
+  :repository: https://github.com/upgradeya/redmine-contracts-with-time-tracking-plugin
+redmine_cors:
+  :website: https://github.com/mavimo/redmine_cors
+  :repository: https://github.com/mavimo/redmine_cors
+binzh_redmine_crowd:
+  :website: https://github.com/binzh/redmine_crowd
+  :repository: https://github.com/binzh/redmine_crowd.git
+redmine_crowd:
+  :website: https://github.com/bpaquet/redmine-crowd-plugin
+  :repository: https://github.com/bpaquet/redmine-crowd-plugin
+redmine_currency:
+  :website: http://smart-story.ru/products/software/redmine-currency/
+redmine_custom_auto_complete:
+  :website: https://github.com/taikii/redmine_custom_auto_complete
+  :repository: https://github.com/taikii/redmine_custom_auto_complete
+redmine_custom_field_hints:
+  :website: https://github.com/bpat1434/redmine_custom_field_hints
+  :repository: https://github.com/bpat1434/redmine_custom_field_hints
+customrecipients: {}
+redmine_custom_view_assigned:
+  :website: http://alexbocharov.github.io/redmine_custom_view_assigned
+  :repository: https://github.com/alexbocharov/redmine_custom_view_assigned.git
+redmine_customize:
+  :website: https://github.com/Undev/redmine_customize
+  :repository: https://github.com/Undev/redmine_customize
+redmine_cut_tag:
+  :website: https://github.com/Undev/redmine_cut_tag
+  :repository: https://github.com/Undev/redmine_cut_tag
+redmine_danthes:
+  :website: http://jbox-web.github.io/redmine_danthes/
+  :repository: https://github.com/jbox-web/redmine_danthes
+redmine-daily-workload-management:
+  :website: https://github.com/DefaultValue/redmine-daily-workload-management
+  :repository: https://github.com/DefaultValue/redmine-daily-workload-management
+redmine-dashboard:
+  :website: https://github.com/jgraichen/redmine_dashboard/tree/stable-v2#readme
+  :repository: https://github.com/jgraichen/redmine_dashboard
+redmine_datetime_macro:
+  :website: https://github.com/giner/helplinux/tree/master/redmine_plugins/redmine_datetime_macro
+  :repository: https://github.com/giner/helplinux/tree/master/redmine_plugins/redmine_datetime_macro
+redmine_default_custom_query:
+  :website: https://github.com/hidakatsuya/redmine_default_custom_query
+  :repository: https://github.com/hidakatsuya/redmine_default_custom_query
+redmine_default_members:
+  :website: http://jbox-web.github.io/redmine_default_members/
+  :repository: https://github.com/jbox-web/redmine_default_members
+redmine_diff_popup:
+  :website: https://github.com/GEROMAX
+  :repository: https://github.com/GEROMAX/redmine_diff_popup
+redmine_digest:
+  :website: https://github.com/Undev/redmine_digest
+  :repository: https://github.com/Undev/redmine_digest
+redmine_digest_auth:
+  :website: https://github.com/matsukei/redmine_digest_auth
+  :repository: https://github.com/matsukei/redmine_digest_auth.git
+redmine_plugin_display_role:
+  :website: https://github.com/mas0061/redmine_plugin_display_role
+  :repository: https://github.com/mas0061/redmine_plugin_display_role
+redmine_docson:
+  :website: https://github.com/mikitex70/redmine_docson
+  :repository: https://github.com/mikitex70/redmine_docson.git
+redmine_documents:
+  :website: https://github.com/darioo/redmine_documents
+  :repository: https://github.com/darioo/redmine_documents.git
+redmine_draw_erd:
+  :website: http://ogom.github.io/redmine_draw_erd
+  :repository: https://github.com/ogom/redmine_draw_erd
+redmine_drawio:
+  :website: https://github.com/mikitex70/redmine_drawio
+  :repository: https://github.com/mikitex70/redmine_drawio.git
+redmine_drop_box:
+  :website: http://www.zuinqstudio.com
+  :repository: https://github.com/zuinqstudio/redmine_drop_box
+redmine_due_date_by_default:
+  :website: http://trs.io
+  :repository: https://github.com/TeamRocketScience/redmine_due_date_by_default
+redmine_dynamic_file_link:
+  :website: https://github.com/jongha/redmine_dynamic_file_link
+  :repository: https://github.com/jongha/redmine_dynamic_file_link
+redmine_easy_tracker_assignation:
+  :website: https://github.com/BlueXML/redmine_easy_tracker_assignation
+  :repository: https://github.com/BlueXML/redmine_easy_tracker_assignation
+redmine_editauthor:
+  :website: https://github.com/rgtk/redmine_editauthor
+  :repository: https://github.com/rgtk/redmine_editauthor
+editauthor: {}
+redmine_email_images:
+  :website: https://github.com/dkalachov/redmine_email_images
+  :repository: https://github.com/dkalachov/redmine_email_images
+redmine_pyreminder:
+  :website: http://clayzermk1.github.com/Redmine-PyReminder
+  :repository: https://github.com/clayzermk1/Redmine-PyReminder
+redmine-embedded:
+  :website: https://github.com/reubenmallaby/redmine_embedded
+  :repository: https://github.com/reubenmallaby/redmine_embedded
+redmine-equipment:
+  :website: http://smart-story.ru/products/software/redmine-equipment/
+redmine_extended_project_roles:
+  :website: https://github.com/BlueXML/redmine_extended_project_roles
+  :repository: https://github.com/BlueXML/redmine_extended_project_roles
+redmine-fixed-header:
+  :website: https://github.com/YujiSoftware/redmine-fixed-header
+  :repository: https://github.com/YujiSoftware/redmine-fixed-header
+redmine_freshbooks:
+  :website: https://github.com/phsr/redmine_freshbooks
+  :repository: https://github.com/phsr/redmine_freshbooks
+redmine_git_branch_hook:
+  :website: https://github.com/mikoto20000/redmine_git_branch_hook
+redmine_git_hosting:
+  :website: http://redmine-git-hosting.io/
+  :repository: https://github.com/jbox-web/redmine_git_hosting
+  :cve_list: https://www.cvedetails.com/vulnerability-list/vendor_id-8599/product_id-30671/Redmine-Redmine-Git-Hosting-Plugin.html
+redmine_gollum:
+  :website: https://github.com/gugod/redmine-gollum/wiki
+  :repository: https://github.com/gugod/redmine-gollum
+redmine_gc_sync:
+  :website: https://github.com/MYchaieb/redmine_gc_sync
+  :repository: https://github.com/MYchaieb/redmine_gc_sync
+graph_activities:
+  :website: https://github.com/meumacha/redmine_graph_activities
+  :repository: https://github.com/meumacha/redmine_graph_activities
+redmine_group_macro:
+  :website: https://github.com/BlueXML/redmine_group_macro
+  :repository: https://github.com/BlueXML/redmine_group_macro
+redmine_group_owners:
+  :repository: https://github.com/m-ramizraja/redmine_group_owners
+rmp_group_watchers:
+  :website: https://github.com/Matrixcs/rmp_group_watchers
+  :repository: https://github.com/Matrixcs/rmp_group_watchers
+redmine-hamster:
+  :website: https://github.com/efigence/redmine_hamster
+  :repository: https://github.com/efigence/redmine_hamster.git
+redmine_harvest_smc:
+  :website: http://singlemindconsulting.com/blog/edward-sharp/redmine-plugin-syncs-harvest-time-entries
+  :repository: https://github.com/singlemind/redmine_harvest_smc
+hide_username:
+  :website: https://github.com/banica/redmine_hide_username
+  :repository: https://github.com/banica/redmine_hide_username
+redmine_highlightjs:
+  :website: https://github.com/dominch/redmine_highlightjs
+  :repository: https://github.com/dominch/redmine_highlightjs
+redmine_holidays_plugin:
+  :website: https://github.com/taktos/redmine_holidays_plugin
+  :repository: https://github.com/taktos/redmine_holidays_plugin.git
+redmine_hours:
+  :website: https://github.com/digitalnatives/redmine_hours
+  :repository: https://github.com/digitalnatives/redmine_hours
+redmine_http_basic_authentication:
+  :website: http://github.com/pburgisser/redmine_http_basic_authentication
+  :repository: http://github.com/pburgisser/redmine_http_basic_authentication.git
+redmine-impersonate:
+  :website: http://www.arkhitech.com/redmine-customization-and-plugin-development
+  :repository: https://github.com/arkhitech/redmine_impersonate
+redmine_impersonate:
+  :website: https://github.com/rgtk/redmine_impersonate
+  :repository: https://github.com/rgtk/redmine_impersonate
+redmine_import_issues:
+  :website: https://github.com/javiferrer/redmine_import_issues
+  :repository: https://github.com/javiferrer/redmine_import_issues
+import_reqpro:
+  :website: https://github.com/gen2thomas/redmine_import_reqpro
+  :repository: https://github.com/gen2thomas/redmine_import_reqpro
+redmine_improved_road_map:
+  :website: http://automagicallyprogramming.com/post/new-redmine-plugin%C2%A0improved-road-map
+  :repository: http://automagicallyprogramming.com/post/new-redmine-plugin%C2%A0improved-road-map
+redmine_include_macro_extension:
+  :website: https://github.com/taikii/redmine_include_macro_extension
+  :repository: https://github.com/taikii/redmine_include_macro_extension
+redmine_info_tab:
+  :website: https://github.com/marcus-sacramento-redmine/redmine_info_tab
+  :repository: https://github.com/marcus-sacramento-redmine/redmine_info_tab.git
+rp_information:
+  :website: http://www.r-labs.org/projects/rp-admin-reports/wiki/Redmine_Information_Plugin
+  :repository: http://sourceforge.jp/projects/rp-information/releases/
+redmine-installer:
+  :website: http://www.easyredmine.com/redmine-installation-wizard
+  :repository: https://github.com/easyredmine/plugin-installer
+redmine_inventory_manager:
+  :website: https://github.com/danielanguita/redmine_inventory_manager
+  :repository: https://github.com/danielanguita/redmine_inventory_manager
+redmine_issue_clipboard:
+  :website: https://github.com/blid/redmine_issue_clipboard
+  :repository: https://github.com/blid/redmine_issue_clipboard
+redmine_issue_closer:
+  :website: https://github.com/isheninp/redmine_issue_closer
+  :repository: https://github.com/isheninp/redmine_issue_closer
+redmine_issue_completion:
+  :website: http://ashpak.ru/
+  :repository: https://github.com/insspb/redmine_issue_completion
+redmine_issue_dynamic_edit:
+  :website: https://github.com/Ilogeek/redmine_issue_dynamic_edit
+  :repository: https://github.com/Ilogeek/redmine_issue_dynamic_edit
+issue_query:
+  :website: https://github.com/sharpyfox/issue_query.git
+  :repository: https://github.com/sharpyfox/issue_query.git
+redmine_issue_templates_notes:
+  :repository: https://github.com/brunofonseca/redmine_issue_templates_notes
+redmine_issue_to_trello:
+  :website: https://github.com/meinside/redmine_issue_to_trello
+  :repository: https://github.com/meinside/redmine_issue_to_trello
+redmine_issue_wiki_journal:
+  :website: https://github.com/hidakatsuya/redmine_issue_wiki_journal/blob/master/README.md
+  :repository: https://github.com/hidakatsuya/redmine_issue_wiki_journal
+redmine_issues_hub:
+  :website: https://github.com/cappuMUC/redmine_issues_hub/
+  :repository: https://github.com/cappuMUC/redmine_issues_hub/
+redmine_issues_macros:
+  :website: https://github.com/twinslash/redmine_issues_macros
+  :repository: https://github.com/twinslash/redmine_issues_macros
+redmine_issues_poll:
+  :website: https://github.com/dextra/redmine_issues_poll
+  :repository: https://github.com/dextra/redmine_issues_poll
+redmine_issues_sidebar_time_entries_links:
+  :website: https://github.com/efigence/redmine_issues_sidebar_time_entries_links
+  :repository: https://github.com/efigence/redmine_issues_sidebar_time_entries_links
+redmine_issues_tree:
+  :website: https://github.com/Loriowar/redmine_issues_tree
+  :repository: git@github.com:Loriowar/redmine_issues_tree.git
+redmine_jenkins:
+  :website: http://jbox-web.github.io/redmine_jenkins/
+  :repository: https://github.com/jbox-web/redmine_jenkins
+redmine_josso:
+  :website: http://imonteroperez.blogspot.com
+  :repository: https://github.com/imonteroperez/redmine_josso
+journal_folder:
+  :website: http://turucame.jp/
+  :repository: https://git.turucame.info/turucame/redmine_journal_folder
+redmine_jquery_file_upload:
+  :website: https://github.com/twinslash/redmine_jquery_file_upload
+  :repository: https://github.com/twinslash/redmine_jquery_file_upload
+redmine_ldap_passwd:
+  :website: https://github.com/xeagle2/redmine_ldap_passwd
+  :repository: https://github.com/xeagle2/redmine_ldap_passwd
+redmine_ldap_sync:
+  :website: https://github.com/thorin/redmine_ldap_sync
+  :repository: https://github.com/thorin/redmine_ldap_sync
+redmine_ldap_synchronizer:
+  :website: https://github.com/jihh/redmine_ldap_synchronizer
+  :repository: https://github.com/jihh/redmine_ldap_synchronizer
+redmine_leaves:
+  :website: http://www.arkhitech.com/redmine-plugin-development/
+  :repository: https://github.com/arkhitech/redmine_leaves
+redmine_legacy_link:
+  :repository: https://github.com/crosspoints/redmine_legacy_link
+redmine_local_avatars:
+  :website: https://launchpad.net/redminelocalavatars
+  :repository: https://code.launchpad.net/redminelocalavatars
+redmine_mail_checker:
+  :website: http://jbox-web.github.io/redmine_mail_checker/
+  :repository: https://github.com/jbox-web/redmine_mail_checker
+redmine_mail_from:
+  :website: https://github.com/taqueci/redmine_mail_from
+  :repository: https://github.com/taqueci/redmine_mail_from
+redmine_mail_reminder:
+  :website: https://github.com/Hopebaytech/redmine_mail_reminder
+  :repository: https://github.com/Hopebaytech/redmine_mail_reminder.git
+redmine_mail_sender:
+  :website: https://github.com/vmi/redmine_mail_sender
+  :repository: https://github.com/vmi/redmine_mail_sender
+redmine-mailchimp:
+  :website: http://michaelsweetman.com
+  :repository: https://github.com/masweetman/redmine_mailchimp.git
+redmine_materials:
+  :website: https://bitbucket.org/39648421
+  :repository: https://bitbucket.org/39648421/redmine_materials
+redmine_membersgmap:
+  :website: https://github.com/TriggerAu/redmine_membersgmap
+  :repository: https://github.com/TriggerAu/redmine_membersgmap
+redmine-mentions:
+  :website: http://www.arkhitech.com/redmine-plugin-development/
+  :repository: https://github.com/arkhitech/redmine_mentions
+redmine_messenger:
+  :repository: https://github.com/alphanodes/redmine_messenger
+redmine-mobile:
+  :website: https://www.easyredmine.com/resources/mobile
+redmine_my_page:
+  :website: https://github.com/jrupesh/redmine_my_page
+  :repository: https://github.com/jrupesh/redmine_my_page
+redmine_my_users:
+  :website: https://github.com/go2null/redmine_my_users
+  :repository: https://github.com/go2null/redmine_my_users
+redmine_new_issue_status:
+  :website: https://github.com/xeagle2/redmine_new_issue_status
+  :repository: https://github.com/xeagle2/redmine_new_issue_status
+redmine_nikoca_re:
+  :website: http://ylgbk.hatenablog.com/entry/2014/11/22/220509
+  :repository: https://github.com/yuuu/redmine_nikoca_re
+notice:
+  :repository: https://github.com/zhujunwu/redmine-plugin-notice
+redmine_notice:
+  :website: https://github.com/parshukovvv/redmine_notice
+  :repository: https://github.com/parshukovvv/redmine_notice
+redmine_app_notifications2:
+  :website: https://bitbucket.org/39648421
+  :repository: https://bitbucket.org/39648421/redmine_app_notifications
+redmine_oauth_dataporten:
+  :website: https://github.com/kasperrt/redmine_oauth_dataporten
+  :repository: https://github.com/kasperrt/redmine_oauth_dataporten
+redmine_omniauth_google:
+  :website: https://github.com/twinslash/redmine_omniauth_google
+  :repository: https://github.com/twinslash/redmine_omniauth_google
+omniauth_oauth2_isu:
+  :website: https://github.com/pbelikov/redmine-omniauth-oauth-cas
+  :repository: https://github.com/pbelikov/redmine-omniauth-oauth-cas
+redmine_omniauth_saml:
+  :website: https://github.com/chrodriguez/redmine_omniauth_saml
+  :repository: https://github.com/chrodriguez/redmine_omniauth_saml
+redmine_omniauth_ulogin:
+  :website: https://github.com/mrscylla/redmine_omniauth_uLogin
+  :repository: https://github.com/mrscylla/redmine_omniauth_uLogin
+redmine_open_version_filter:
+  :website: https://github.com/twinslash/redmine_open_version_filter
+  :repository: https://github.com/twinslash/redmine_open_version_filter
+redmine_openid_provider:
+  :website: https://github.com/buri17/redmine_openid_provider
+  :repository: https://github.com/buri17/redmine_openid_provider
+redmine-openmeetings:
+  :website: http://code.google.com/a/apache-extras.org/p/openmeetings-redmine-plugin/
+  :repository: http://svn.codespot.com/a/apache-extras.org/openmeetings-redmine-plugin/trunk/
+redmine_open_search:
+  :website: https://github.com/Mine02C4/redmine_open_search
+  :repository: https://github.com/Mine02C4/redmine_open_search
+redmine_openstack:
+  :website: https://framagit.org/lobster/redmine_openstack
+  :repository: https://framagit.org/lobster/redmine_openstack
+redmine-orphan-revisions:
+  :website: https://github.com/noma4i/Redmine-Orphan-Revisions
+  :repository: https://github.com/noma4i/Redmine-Orphan-Revisions
+redmine_out_of_band_auth:
+  :website: https://github.com/matsukei/redmine_out_of_band_auth
+  :repository: https://github.com/matsukei/redmine_out_of_band_auth.git
+redmine-outlook-addin:
+  :website: https://www.ahausoftware.com/redmine-outlook
+redmine_page_break_macro:
+  :website: https://github.com/hidakatsuya/redmine_page_break_macro
+  :repository: https://github.com/hidakatsuya/redmine_page_break_macro
+redmine_pam_auth:
+  :website: http://cardil.github.com/redmine-pam-auth
+  :repository: git://github.com/cardil/redmine-pam-auth.git
+redmine_percent_done_configuration:
+  :repository: https://github.com/guilhermenoronha/redmine_percent_done_configuration
+redmine-photo-gallery:
+  :website: http://smart-story.ru/products/software/redmine-photo-gallery/
+redmine_pipeline_plugin:
+  :website: https://github.com/GitDries/redmine_pipeline_plugin
+  :repository: https://github.com/GitDries/redmine_pipeline_plugin.git
+redmine_pivot_table:
+  :website: https://github.com/deecay/redmine_pivot_table
+  :repository: https://github.com/deecay/redmine_pivot_table
+redmine_plugin_generator:
+  :website: https://www.easyredmine.com/redmine-plugin-generator
+  :repository: https://github.com/easyredmine/redmine_entity_generator
+redmine-portfolio:
+  :website: https://github.com/ifad/redmine-portfolio
+  :repository: https://github.com/ifad/redmine-portfolio
+redmine_portfolio_management:
+  :website: https://github.com/marcus-sacramento-redmine/redmine_portfolio_management
+  :repository: https://github.com/marcus-sacramento-redmine/redmine_portfolio_management.git
+redmine-post-link-plugin:
+  :website: http://code.google.com/p/redmine-post-link-plugin/
+  :repository: http://code.google.com/p/redmine-post-link-plugin/source/browse/
+pretend:
+  :repository: https://github.com/leonko/redmine_pretend
+redmine_private_wiki:
+  :website: https://github.com/BlueXML/redmine_private_wiki
+  :repository: https://github.com/BlueXML/redmine_private_wiki
+redmine-project-state:
+  :website: https://github.com/DefaultValue/redmine-project-state
+  :repository: https://github.com/DefaultValue/redmine-project-state
+redmine_project_custom_tabs:
+  :website: https://github.com/NicolasFeron/redmine_project_custom_tabs
+  :repository: https://github.com/NicolasFeron/redmine_project_custom_tabs
+redmine_pusher_notifications:
+  :website: http://jbox-web.github.io/redmine_pusher_notifications/
+  :repository: https://github.com/jbox-web/redmine_pusher_notifications
+qangaroo_plugin:
+  :website: https://qangaroo.jp
+  :repository: https://github.com/tm-qangaroo/qangaroo_plugin
+redmine_qbo:
+  :website: https://github.com/rickbarrette/redmine_qbo
+  :repository: git@github.com:rickbarrette/redmine_qbo.git
+qqs:
+  :website: https://bitbucket.org/39648421/qqs-redmine-plugin/
+  :repository: https://bitbucket.org/39648421/qqs-redmine-plugin/
+redmine_queries_management:
+  :website: https://github.com/BlueXML/redmine_queries_management
+  :repository: https://github.com/BlueXML/redmine_queries_management
+redmine-quickbooks:
+  :website: http://www.ahausoftware.com/redmine-quickbooks
+redmine_recaptcha:
+  :website: https://github.com/srstclair/redmine_recaptcha/blob/master/README
+  :repository: https://github.com/srstclair/redmine_recaptcha
+redmine_redcarpet_formatter:
+  :website: https://github.com/alminium/redmine_redcarpet_formatter
+  :repository: https://github.com/alminium/redmine_redcarpet_formatter.git
+redmine_redcarpet_viewer:
+  :website: https://github.com/ngyuki/redmine_redcarpet_viewer
+  :repository: https://github.com/ngyuki/redmine_redcarpet_viewer
+redmine_redcloth:
+  :website: https://github.com/jdkemme/redmine_redcloth
+  :repository: https://github.com/jdkemme/redmine_redcloth.git
+redmine_related_buster:
+  :website: https://github.com/noma4i/Redmine-Related-Buster
+  :repository: https://github.com/noma4i/Redmine-Related-Buster
+redmine-reports:
+  :website: https://github.com/dchbx/redmine_reports
+  :repository: https://github.com/dchbx/redmine_reports
+redmine_report_filters:
+  :website: http://redmine.forkbrain.com/
+redmine_reveal:
+  :website: https://github.com/mikitex70/redmine_reveal
+  :repository: https://github.com/mikitex70/redmine_reveal.git
+redmine_rouge:
+  :website: https://github.com/ngyuki/redmine_rouge
+  :repository: https://github.com/ngyuki/redmine_rouge
+redmine_s3:
+  :website: https://github.com/ka8725/redmine_s3
+  :repository: https://github.com/ka8725/redmine_s3
+redmine_schedule:
+  :website: http://redmineplugins.omegacode.pl/redmine_schedule
+redmine_scrum_cards_plugin:
+  :website: https://github.com/echoes-tech/redmine_scrum_cards
+  :repository: https://github.com/echoes-tech/redmine_scrum_cards
+redmine_scrum_cards:
+  :repository: https://github.com/nauphone/redmine_scrum_cards
+redmine_send_issue_reply_email:
+  :website: https://github.com/matsukei/redmine_send_issue_reply_email
+  :repository: https://github.com/matsukei/redmine_send_issue_reply_email.git
+redmine_send_mails:
+  :repository: https://github.com/guilhermenoronha/redmine_send_mails
+redmine_serial_number_field:
+  :website: https://github.com/matsukei/redmine_serial_number_field/blob/master/README.en.md
+  :repository: https://github.com/matsukei/redmine_serial_number_field.git
+redmine_shady:
+  :website: https://github.com/rgtk/redmine_shady
+  :repository: https://github.com/rgtk/redmine_shady
+redmine_shared_api:
+  :website: https://github.com/anovitsky/redmine_shared_api
+  :repository: https://github.com/anovitsky/redmine_shared_api
+redmine_shortcuts:
+  :website: https://github.com/davidegiacometti/redmine_shortcuts
+  :repository: https://github.com/davidegiacometti/redmine_shortcuts
+redmine_show_issue_assignee_avatar_plugin:
+  :website: https://github.com/two-pack/redmine_show_issue_assignee_avatar
+  :repository: https://github.com/two-pack/redmine_show_issue_assignee_avatar
+redmine_sidebar_toc:
+  :website: https://github.com/twinslash/redmine_sidebar_toc
+  :repository: https://github.com/twinslash/redmine_sidebar_toc
+redmine_sidekiq:
+  :website: https://github.com/ogom/redmine_sidekiq
+  :repository: https://github.com/ogom/redmine_sidekiq
+redmine-silent-statuses:
+  :website: https://github.com/DefaultValue/redmine-silent-statuses
+  :repository: https://github.com/DefaultValue/redmine-silent-statuses
+redmine_simple:
+  :website: https://github.com/Undev/redmine_simple
+  :repository: https://github.com/Undev/redmine_simple
+redmine_sitemap:
+  :repository: https://github.com/yoshida-mediba/redmine_sitemap
+redmine-slideshow:
+  :website: http://projets-labinfo.he-arc.ch/projects/redmine-slideshow
+  :repository: http://svn-labinfo.he-arc.ch/redmine-slideshow
+redmine_socio_connect:
+  :website: https://github.com/mhaseebkhan/redmine_socio_connect
+  :repository: https://github.com/mhaseebkhan/redmine_socio_connect
+redmine_spent_time:
+  :website: https://github.com/eyp/redmine_spent_time
+  :repository: https://github.com/eyp/redmine_spent_time.git
+redmine_spent_time_required:
+  :website: http://trs.io
+  :repository: https://github.com/TeamRocketScience/redmine_spent_time_required
+redmine_ssl_auth_cn:
+  :website: https://github.com/SteveSimpson/redmine_ssl_auth_cn
+  :repository: https://github.com/SteveSimpson/redmine_ssl_auth_cn
+redmine_startpage:
+  :website: http://gatatac.org/projects/redmine-startpage/wiki
+  :repository: https://github.com/txinto/redmine_startpage
+redmine_stats_2:
+  :website: https://github.com/myaspm/redmine_stats_2
+  :repository: https://github.com/myaspm/redmine_stats_2
+redmine_stealth:
+  :website: http://teleological.github.com/redmine_stealth
+  :repository: http://github.com/teleological/redmine_stealth
+redmine_sticky_messages:
+  :website: https://github.com/jongha/redmine_sticky_messages
+  :repository: https://github.com/jongha/redmine_sticky_messages
+storehouse_plugin_soft-story:
+  :website: http://smart-story.ru/products/software/redmine-storehouse/
+redmine_subtask_list_accordion:
+  :website: https://github.com/GEROMAX
+  :repository: https://github.com/GEROMAX/redmine_subtask_list_accordion
+redmine_subtasks_inherited_fields:
+  :website: https://github.com/edosoft/redmine-inherit-fields-plugin
+  :repository: https://github.com/edosoft/redmine-inherit-fields-plugin.git
+redmine_taskjuggler:
+  :website: https://github.com/chris2fr/redmine_taskjuggler/wiki
+  :repository: https://github.com/chris2fr/redmine_taskjuggler
+redmine_teaching_extension:
+  :website: https://github.com/MarioMerino/redmine_teaching_extension
+  :repository: https://github.com/MarioMerino/redmine_teaching_extension
+redmine_telegram_email:
+  :website: https://github.com/massdest/redmine_telegram_email
+  :repository: https://github.com/massdest/redmine_telegram_email.git
+redmine_telegram_global:
+  :website: https://github.com/massdest/redmine_telegram_global
+  :repository: https://github.com/massdest/redmine_telegram_global.git
+redmine_terms:
+  :website: https://github.com/johnp2686/Redmine-Terms-And-Conditions
+  :repository: https://github.com/johnp2686/Redmine-Terms-And-Conditions
+redmine_time_invoices:
+  :website: http://www.arkhitech.com/content/redmine-customization-and-plugin-development
+  :repository: https://github.com/arkhitech/redmine_time_invoices
+redmine_time_limit:
+  :website: https://github.com/twinslash/redmine_time_limit
+  :repository: https://github.com/twinslash/redmine_time_limit
+redmine-time-log:
+  :website: https://github.com/m13badry/Redmine-Time-Log/
+  :repository: https://github.com/m13badry/Redmine-Time-Log/
+redmine-time-tracking-software:
+  :website: https://www.ukrsolution.com/Redmine-Time-Tracker-Software-Time-Logger
+redmine_timesheet_plugin:
+  :website: http://www.arkhitech.com/redmine-timesheet-plugin
+  :repository: https://github.com/arkhitech/redmine_timesheet_plugin
+redmine_app_timesheets:
+  :website: https://github.com/maxrossello/redmine_app_timesheets
+  :repository: https://github.com/maxrossello/redmine_app_timesheets
+redmine_zendesk_issue_bridge:
+  :website: http://raventools.github.io/redmine_zendesk_issue_bridge/
+  :repository: https://github.com/raventools/redmine_zendesk_issue_bridge
+redmine_smile_togglesidebar:
+  :website: https://github.com/Smile-SA/redmine_smile_togglesidebar/blob/master/README.md
+  :repository: https://github.com/Smile-SA/redmine_smile_togglesidebar
+redmine-touch:
+  :website: https://github.com/noma4i/Redmine-Touch
+  :repository: https://github.com/noma4i/Redmine-Touch
+redmine_tpa:
+  :website: http://hylozero.github.io/redmine_tpa
+  :repository: https://github.com/hylozero/redmine_tpa
+redmine_track_control:
+  :website: http://jijeshmohan.wordpress.com/2011/12/24/redmine-tracker-control-plugin-released
+  :repository: https://github.com/jijeshmohan/redmine_track_control
+redmine_tweaks:
+  :repository: https://github.com/alphanodes/redmine_tweaks
+redmine_update_reminder:
+  :website: http://www.arkhitech.com/content/redmine-customization-and-plugin-development
+  :repository: https://github.com/arkhitech/redmine_update_reminder
+redmine_upload_forms:
+  :website: https://projects.rosedu.org/projects/redmine-uploads
+  :repository: http://git.rosedu.org/redmine_uploads.git
+redmine_upwork_plugin:
+  :website: http://redmineupwork.com/
+  :repository: http://redmineupwork.com/
+redmine_userpage_macro:
+  :website: https://github.com/giner/helplinux/tree/master/redmine_plugins/redmine_userpage_macro
+  :repository: https://github.com/giner/helplinux/tree/master/redmine_plugins/redmine_userpage_macro
+redmine_viafirma:
+  :website: http://imonteroperez.blogspot.com
+  :repository: https://github.com/imonteroperez/redmine_viafirma
+redmine_vote_plugin:
+  :website: https://github.com/jongha/redmine_vote
+  :repository: https://github.com/jongha/redmine_vote
+redmine-vpn:
+  :website: http://smart-story.ru/products/software/redmine-vpn/
+redmine-warranty:
+  :website: http://smart-story.ru/products/software/redmine-warranty/
+redmine_watcher_groups:
+  :website: https://github.com/kamenf/redmine_watcher_groups
+  :repository: https://github.com/kamenf/redmine_watcher_groups
+redmine_wiki_books:
+  :website: http://gatatac.org/projects/redmine-wikibooks
+  :repository: https://github.com/txinto/redmine_wiki_books
+redmine_wiki_sql:
+  :repository: https://github.com/rorx/redmine_wiki_sql
+redmine_work_wechat:
+  :website: https://bitbucket.org/39648421/redmine_work_wechat
+  :repository: https://bitbucket.org/39648421/redmine_work_wechat
+redmine_workflow_api:
+  :website: https://github.com/RealEnder/redmine_workflow_api
+  :repository: https://github.com/RealEnder/redmine_workflow_api
+redmine_workflow_enhancements:
+  :website: https://github.com/dr-itz/redmine_workflow_enhancements
+  :repository: git://github.com/dr-itz/redmine_workflow_enhancements.git
+redmine_xlsx_format_issue_exporter:
+  :website: https://github.com/two-pack/redmine_xlsx_format_issue_exporter
+  :repository: https://github.com/two-pack/redmine_xlsx_format_issue_exporter
+redmine-data-import:
+  :website: https://www.easyredmine.com/redmine-services/redmine-data-import
+redmine_zendesk_ticket_updater:
+  :repository: https://github.com/airtame/redmine_zendesk_ticket_updater
+redmine_zxcvbn:
+  :website: https://github.com/schmidt/redmine_zxcvbn
+  :repository: https://github.com/schmidt/redmine_zxcvbn
+redmine-forced:
+  :website: https://github.com/apalmblad/redmine-forced
+  :repository: https://github.com/apalmblad/redmine-forced
+redmine-joomla-bridge: {}
+redmine_issueupdate:
+  :website: https://github.com/johnp2686/Redmine-RepositoriesUpdateIssuewithSVNcommit
+  :repository: https://github.com/johnp2686/Redmine-RepositoriesUpdateIssuewithSVNcommit
+redmine-ipb-auth:
+  :website: http://code.rohitab.com/projects/redmine-ipb-auth
+  :repository: https://code.rohitab.com/git/redmine-ipb-auth.git
+redmine-msp-sync:
+  :website: https://github.com/m0n9oose/redmine_loader
+  :repository: https://github.com/m0n9oose/redmine_loader
+redmine_schedules:
+  :website: https://github.com/Yoru94/redmine3.1-schedules-plugin
+  :repository: https://github.com/Yoru94/redmine3.1-schedules-plugin
+redmine_attach_by_url:
+  :website: https://github.com/nodecarter/redmine_attach_by_url
+  :repository: https://github.com/nodecarter/redmine_attach_by_url
+redmine_rt:
+  :repository: https://github.com/MayamaTakeshi/redmine_rt
+redmine-browserid:
+  :website: https://github.com/martinsp/redmine_browserid
+  :repository: https://github.com/martinsp/redmine_browserid
+redmine_card:
+  :website: https://github.com/w3blogfr/redmine_card
+  :repository: https://github.com/w3blogfr/redmine_card
+redmine_chosen:
+  :website: https://github.com/shingfunglai/redmine_chosen
+  :repository: https://github.com/shingfunglai/redmine_chosen.git
+redmine_customized_report:
+  :website: https://github.com/zeyuLiang/redmine_customized_report
+  :repository: https://github.com/zeyuLiang/redmine_customized_report
+redmine_doorkeeper:
+  :website: https://github.com/ipcross/redmine_doorkeeper
+  :repository: https://github.com/ipcross/redmine_doorkeeper
+redmine_etherpad:
+  :repository: https://github.com/yourcelf/redmine_etherpad
+redmine_fetch_email_feedback:
+  :website: https://github.com/halida/redmine_fetch_email_feedback
+  :repository: https://github.com/halida/redmine_fetch_email_feedback
+redmine_hackpad:
+  :website: https://github.com/donilan/redmine_hackpad
+  :repository: https://github.com/donilan/redmine_hackpad
+redmine_hearts:
+  :website: https://github.com/cat-in-136/redmine_hearts
+  :repository: https://github.com/cat-in-136/redmine_hearts.git
+redmine_helpdesk:
+  :website: https://github.com/jfqd/redmine_helpdesk
+  :repository: https://github.com/jfqd/redmine_helpdesk
+redmine_info_api:
+  :website: https://github.com/shadowbq/redmine_info_api
+  :repository: https://github.com/shadowbq/redmine_info_api
+redmine_issues_sorting:
+  :website: https://github.com/JohnBat26/redmine_issues_sorting
+  :repository: https://github.com/JohnBat26/redmine_issues_sorting
+redmine_issue_external_item:
+  :website: https://github.com/clairton/redmine_issue_external_item
+  :repository: https://github.com/clairton/redmine_issue_external_item
+issue_history:
+  :website: http://systango.com
+  :repository: https://github.com/stpl/redmine_issue_history
+redmine_issue_icons:
+  :website: https://github.com/JohnBat26/redmine_issue_icons
+  :repository: https://github.com/JohnBat26/redmine_issue_icons
+redmine_issue_status_change:
+  :website: https://github.com/johnp2686/redmine_issue_status_change.git
+  :repository: https://github.com/johnp2686/redmine_issue_status_change.git
+redmine_issue_tree_tiny:
+  :website: https://github.com/Jiangshan00001/redmine_issue_tree_tiny
+  :repository: https://github.com/Jiangshan00001/redmine_issue_tree_tiny
+redmine_js_syntax_highlighter:
+  :website: https://github.com/k2s/redmine_js_syntax_highlighter
+  :repository: https://github.com/k2s/redmine_js_syntax_highlighter
+redmine_letter_opener_web:
+  :website: https://github.com/MischaTheEvil/redmine_letter_opener_web
+  :repository: https://github.com/MischaTheEvil/redmine_letter_opener_web.git
+redmine_mailwrapper:
+  :website: https://github.com/snnrk/redmine_mailwrapper/wiki
+  :repository: https://github.com/snnrk/redmine_mailwrapper
+redmine_oauth2_provider:
+  :website: https://github.com/lordfinal/redmine_oauth2_provider
+  :repository: https://github.com/lordfinal/redmine_oauth2_provider
+redmine_omniauth_gitlab:
+  :website: https://github.com/applewu/redmine_omniauth_gitlab
+  :repository: https://github.com/applewu/redmine_omniauth_gitlab.git
+redmine_persist_wfmt:
+  :website: https://github.com/pinzolo/redmine_persist_wfmt
+  :repository: https://github.com/pinzolo/redmine_persist_wfmt
+redmine_planning:
+  :website: https://github.com/MadEgg/redmine_planning
+  :repository: https://github.com/MadEgg/redmine_planning.git
+redmine_print_style_black:
+  :website: https://github.com/jperelli/redmine_print_style_black
+  :repository: https://github.com/jperelli/redmine_print_style_black
+redmine_reminder:
+  :website: https://github.com/Enkil/redmine_reminder
+  :repository: git@github.com:Enkil/redmine_reminder.git
+redmine_remote_user_auth:
+  :website: https://github.com/vitstradal/redmine_remote_user_auth
+  :repository: https://github.com/vitstradal/redmine_remote_user_auth
+redmine_sladiator:
+  :website: https://sladiator.com
+  :repository: https://github.com/eBIT/redmine_sladiator
+redmine_stats:
+  :website: https://github.com/luisfontes19/redmine_stats/
+  :repository: https://github.com/luisfontes19/redmine_stats/
+redmine_tags:
+  :website: https://github.com/ixti/redmine_tags/
+  :repository: https://github.com/ixti/redmine_tags/
+redmine_wiki_embedded:
+  :website: https://github.com/Jiangshan00001/redmine_wiki_embedded
+  :repository: https://github.com/Jiangshan00001/redmine_wiki_embedded
+redmine_wysiwyg:
+  :website: http://systango.com
+  :repository: https://github.com/stpl/redmine_wysiwyg
+redpoll:
+  :website: https://github.com/elecard-med/redpoll
+  :repository: https://github.com/elecard-med/redpoll
+redrisk:
+  :website: https://github.com/rolesoftware/redrisk
+  :repository: https://github.com/rolesoftware/redrisk
+redshares:
+  :website: https://github.com/jzaiat/redshares
+  :repository: https://github.com/jzaiat/redshares
+redmine_redsun:
+  :website: http://dkd.github.io/redsun/
+  :repository: https://github.com/dkd/redsun
+redtimer:
+  :website: https://www.redtimer.org
+  :repository: https://github.com/fathomssen/redtimer.git
+release_logs:
+  :website: http://www.arubystory.com/p/redmine-release-logs-getting-started.html
+  :repository: https://github.com/iridakos/release_logs
+redmine_release_notes:
+  :website: https://github.com/hdgarrood/redmine_release_notes
+  :repository: git://github.com/hdgarrood/redmine_release_notes.git
+reminderemails:
+  :repository: https://github.com/eckucukoglu/redmine-reminder-emails
+redmine_issue_reminder:
+  :repository: https://github.com/raafael911/redmine_reminder
+redmine_remote_revision_url:
+  :website: https://github.com/tleish/redmine_remote_revision_url
+  :repository: https://github.com/tleish/redmine_remote_revision_url
+redmine_reorder_links_arbitrary:
+  :website: http://www.redmine.org/boards/3/topics/29180
+redmine_reposearch:
+  :website: http://surgo.github.com/redmine_reposearch/
+  :repository: https://github.com/Surgo/redmine_reposearch
+remine_repobrowser:
+  :website: https://github.com/gilbertf/redmine_repobrowser
+  :repository: https://github.com/gilbertf/redmine_repobrowser
+redmine_repository: {}
+redmine_env_auth:
+  :website: https://github.com/Intera/redmine_env_auth
+  :repository: https://github.com/Intera/redmine_env_auth
+redmine_require_wiki_comment: {}
+resource_dashboard:
+  :website: https://www.easyredmine.com/redmine-resource-dashboard
+planner:
+  :website: https://github.com/dr-itz/RedminePlannerPlugin
+  :repository: git://github.com/dr-itz/RedminePlannerPlugin.git
+redmine_resque:
+  :website: https://github.com/Undev/redmine_resque
+  :repository: https://github.com/Undev/redmine_resque
+redmine_restrict_tracker:
+  :website: https://github.com/ZitecCOM/redmine_restrict_tracker
+  :repository: https://github.com/ZitecCOM/redmine_restrict_tracker
+redmine_restricted_members_managament:
+  :website: https://github.com/darioo/redmine_restricted_members_managament
+  :repository: https://github.com/darioo/redmine_restricted_members_managament.git
+risk-management:
+  :website: https://github.com/imaginary-cloud/redmine_risk_management
+  :repository: https://github.com/imaginary-cloud/redmine_risk_management
+rmplus_devtools:
+  :website: http://rmplus.pro/en/redmine/plugins/rmplus_devtools
+  :repository: http://rmplus.pro/en/redmine/plugins/rmplus_devtools
+roadmaps:
+  :website: http://daipresents.com/2009/redmine_roadmaps_plugin/
+  :repository: https://github.com/daipresents/redmine_roadmaps
+role-members-batch-copy:
+  :website: https://github.com/savoirfairelinux/redmine-role-members-batch-copy
+  :repository: https://github.com/savoirfairelinux/redmine-role-members-batch-copy
+redmine_role_replacements:
+  :website: https://github.com/Undev/redmine_role_replacements
+  :repository: https://github.com/Undev/redmine_role_replacements
+role_shift:
+  :website: http://projects.andriylesyuk.com/projects/role-shift
+  :repository: http://subversion.andriylesyuk.com/role-shift
+redmine_rouge_highlighter:
+  :website: https://github.com/alexbevi/redmine_rouge_highlighter
+  :repository: https://github.com/alexbevi/redmine_rouge_highlighter
+rougemine:
+  :website: http://rougemine.opsone.net/en/redmine-plugin
+  :repository: https://github.com/opsone/rougemine
+round_robin:
+  :website: https://github.com/pvdvreede
+  :repository: https://github.com/pvdvreede/round_robin
+rt_import: {}
+rtx_notify:
+  :website: https://github.com/fanzai0403/rtx_notify
+  :repository: https://github.com/fanzai0403/rtx_notify
+redmine_saml_auth:
+  :website: https://github.com/cvaldemar/redmine_saml_auth
+  :repository: https://github.com/cvaldemar/redmine_saml_auth
+redmine_save_spent_time_queries:
+  :website: https://github.com/quinvit/redmine_save_spent_time_queries
+  :repository: https://github.com/quinvit/redmine_save_spent_time_queries
+redmine_scheduling_poll:
+  :website: https://github.com/cat-in-136/redmine_scheduling_poll
+  :repository: https://github.com/cat-in-136/redmine_scheduling_poll.git
+redmine_scm:
+  :website: http://projects.andriylesyuk.com/projects/scm-creator
+  :repository: http://subversion.andriylesyuk.com/scm-creator
+redmine_scm_extensions:
+  :repository: http://github.com/amartel/redmine_scm_extensions
+redmine_scm_path_view:
+  :website: https://github.com/11v1/redmine_scm_path_view
+  :repository: https://github.com/11v1/redmine_scm_path_view
+javasript_screenshot: {}
+scrum-plugin:
+  :website: https://redmine.ociotec.com/projects/redmine-plugin-scrum
+  :repository: https://www.patreon.com/ociotec
+scrum2b:
+  :website: http://scrum2b.herokuapp.com
+  :repository: https://github.com/scrum2b/scrum2b
+scrumbler:
+  :website: https://github.com/256MbTeam/Redmine-Scrumbler
+  :repository: https://github.com/256MbTeam/Redmine-Scrumbler
+scrum:
+  :website: https://github.com/geron-cn/Scrum_KL
+  :repository: git://github.com/geron-cn/Scrum_KL.git
+redmine_status_history:
+  :website: https://github.com/javiferrer/redmine_status_history
+  :repository: https://github.com/javiferrer/redmine_status_history
+searchable_project_jump_box: {}
+select_to_select2:
+  :repository: https://github.com/sf-cola/select_to_select2
+redmine__select2:
+  :website: https://github.com/Undev/redmine__select2
+  :repository: https://github.com/Undev/redmine__select2
+selfspenttime:
+  :repository: https://github.com/Belarus2012/SelfSpentTime
+semat_alpha_state_cards:
+  :website: https://git.kreosoft.ru/public-tsu/Alphacards
+  :repository: https://git.kreosoft.ru/public-tsu/Alphacards
+send_notification:
+  :website: https://github.com/Yarroo/redmine-plugin-send_notification
+  :repository: https://github.com/Yarroo/redmine-plugin-send_notification
+service_desk:
+  :website: http://rmplus.pro/en/redmine/plugins/service_desk
+set_assignee_on_commit:
+  :website: https://github.com/team888
+  :repository: https://github.com/team888/redmine-set_assignee_on_commit-plugin
+set_fields_on_status_change:
+  :repository: http://redmine.diez.ws/set_fields_on_status_change.zip
+redmine_query_share:
+  :website: https://github.com/jrupesh/redmine_query_share
+  :repository: https://github.com/jrupesh/redmine_query_share/tree/2.0.0
+redmine_show_descriptions:
+  :website: http://www.redmine.org/projects/redmine/wiki/PluginShowIssueDescriptions
+sidebar:
+  :website: http://projects.andriylesyuk.com/projects/sidebar-content
+  :repository: http://subversion.andriylesyuk.com/sidebar-content
+redmine_issue_control_panel:
+  :website: http://www.redmine.org/projects/redmine/wiki/PluginSidebarIssueControl
+silencer:
+  :website: https://github.com/commandprompt/redmine_silencer
+  :repository: git://github.com/commandprompt/redmine_silencer.git
+redmine_silencer:
+  :website: https://github.com/paginagmbh/redmine_silencer/
+  :repository: https://github.com/paginagmbh/redmine_silencer.git
+simple_author_change:
+  :website: http://dapplication.com
+  :repository: https://github.com/staskie/simple_author_change
+simple_todo_list:
+  :website: http://github.com/bthesorceror/redmine_todo_list
+  :repository: http://github.com/bthesorceror/redmine_todo_list.git
+single_auth:
+  :website: http://rmplus.pro/en/redmine/plugins/single_auth
+  :repository: http://rmplus.pro/en/redmine/plugins/single_auth
+single_column_custom_fields:
+  :website: http://www.redmine.org/boards/3/topics/24022
+redmine_skype_link:
+  :website: https://github.com/Undev/redmine_skype_link
+  :repository: https://github.com/Undev/redmine_skype_link
+redmine-slack:
+  :website: https://github.com/sciyoshi/redmine-slack
+  :repository: https://github.com/sciyoshi/redmine-slack
+redmine_smart_issues_sort:
+  :website: http://www.redmine.org/boards/3/topics/29545
+redmine_sms_auth:
+  :website: https://github.com/centosadmin/redmine_sms_auth
+  :repository: https://github.com/centosadmin/redmine_sms_auth.git
+redmine_snipt:
+  :website: http://gitorious.org/redmine_snipt
+  :repository: http://gitorious.org/redmine_snipt/redmine_snipt
+redmine_social_sign_in:
+  :website: https://github.com/easysoftware/redmine_social_sign_in
+  :repository: https://github.com/easysoftware/redmine_social_sign_in
+email-attach:
+  :website: https://github.com/rb-cohen/redmine_email_attach
+  :repository: https://github.com/rb-cohen/redmine_email_attach
+spectator:
+  :website: https://github.com/alpcrimea/redmine-spectator-plugin
+  :repository: https://github.com/alpcrimea/redmine-spectator-plugin/tree/v0.0.1
+redmine_spent_time_versatile:
+  :website: http://versatilecommunity.co.in/
+  :repository: https://github.com/versatilecommunity/redmine_spent_time
+spent_time_in_issue_description:
+  :repository: https://github.com/TravisSpangle/redmine_spent_time_in_issue_description
+status_button:
+  :website: https://github.com/fanzai0403/status_button
+  :repository: https://github.com/fanzai0403/status_button
+subscription:
+  :website: http://projects.andriylesyuk.com/project/redmine/subscription
+  :repository: http://subversion.andriylesyuk.com/subscription
+subtaskcolumns: {}
+subtask_list_columns:
+  :repository: https://github.com/SMS-IT/redmine_subtask_list_columns
+subtask-overview-enhanced:
+  :website: https://github.com/savoirfairelinux/redmine-subtask-overview-enhanced
+  :repository: https://github.com/savoirfairelinux/redmine-subtask-overview-enhanced
+redmine_summed_fields:
+  :website: https://github.com/maxrossello/redmine_summed_fields
+  :repository: https://github.com/maxrossello/redmine_summed_fields
+svnauth: {}
+sympa:
+  :website: http://development.splendeo.es/projects/redmine-sympa
+  :repository: git://github.com/splendeo/redmine_sympa.git
+redmine_synchrony:
+  :website: https://github.com/centosadmin/redmine_synchrony
+  :repository: https://github.com/centosadmin/redmine_synchrony.git
+redmine_mention_plugin:
+  :website: http://www.systango.com
+  :repository: https://github.com/stpl/redmine_mention_plugin
+redmine_tagging:
+  :website: https://github.com/Undev/redmine_tagging
+  :repository: https://github.com/Undev/redmine_tagging
+redmineup_tags:
+  :website: https://www.redmineup.com/pages/plugins/tags
+nxs_chat:
+  :website: https://nixys.ru
+  :repository: https://github.com/nixys/nxs-chat-redmine
+redmine_telegram_common:
+  :website: https://github.com/centosadmin/redmine_telegram_common
+  :repository: https://github.com/centosadmin/redmine_telegram_common.git
+gsc_templates:
+  :website: https://github.com/generaldesoftware/RedMine-plantillas-plugin#readme
+  :repository: https://github.com/generaldesoftware/RedMine-plantillas-plugin/
+redmine_testing_gems:
+  :website: https://github.com/ZitecCOM/redmine_testing_gems
+  :repository: https://github.com/ZitecCOM/redmine_testing_gems
+rp-testlinklink:
+  :website: http://www.r-labs.org/projects/rp-testlinklink/wiki/TestLinkLinkEn
+  :repository: http://sourceforge.jp/projects/rp-testlinklink/releases/
+textilizable-custom-fields: {}
+that_email_log:
+  :website: https://github.com/thatcompany/that_email_log
+  :repository: https://github.com/thatcompany/that_email_log
+redmine_theme_changer:
+  :website: http://www.r-labs.org/projects/r-labs/wiki/Theme_Changer_en
+  :repository: https://github.com/haru/redmine_theme_changer
+tkgmap:
+  :website: https://github.com/shota-kobayashi/redmine_tkgmap
+  :repository: https://github.com/shota-kobayashi/redmine_tkgmap
+time-bank:
+  :website: https://github.com/savoirfairelinux/redmine-timebank
+  :repository: https://github.com/savoirfairelinux/redmine-timebank
+time_logger:
+  :website: http://github.com/speedy32129
+  :repository: http://github.com/speedy32129/time_logger
+redmine_time_logging_app:
+  :website: https://github.com/Intera/redmine_time_logging_app
+  :repository: https://github.com/Intera/redmine_time_logging_app
+redmine_time_registry: {}
+redmine_time_tracker:
+  :website: http://github.com/delaitre/redmine_time_tracker
+  :repository: http://github.com/delaitre/redmine_time_tracker/tree
+timecop:
+  :website: https://github.com/asseinfo/timecop
+  :repository: https://github.com/asseinfo/timecop
+timelog_on_issue_page:
+  :website: http://rmplus.pro
+  :repository: https://github.com/dkuk/timelog_on_issue_page
+timelog_timer:
+  :website: https://github.com/behigh/redmine_timelog_timer
+  :repository: https://github.com/behigh/redmine_timelog_timer.git
+redmine_timesheet_extensions:
+  :website: https://github.com/nicStuff/redmine_timesheet_extensions
+  :repository: git://github.com/nicStuff/redmine_timesheet_extensions.git
+timesheet:
+  :website: https://github.com/Contargo/redmine-timesheet-plugin
+  :repository: https://github.com/Contargo/redmine-timesheet-plugin
+redmine_time_tracking:
+  :website: https://tmetric.com
+todo_lists:
+  :website: https://github.com/AZielinski/Redmine-Todo-lists
+  :repository: https://github.com/AZielinski/Redmine-Todo-lists
+redmine_trac_formatter:
+  :website: https://github.com/jthomerson/redmine_trac_formatter_plugin
+  :repository: https://github.com/jthomerson/redmine_trac_formatter_plugin
+redmine_traceability:
+  :repository: https://github.com/Emergya/redmine_traceability
+traceability_matrix: {}
+tracker_hider:
+  :website: https://github.com/atlascoder/tracker_hider
+  :repository: https://github.com/atlascoder/tracker_hider.git
+redmine_tracker_status_trigger:
+  :website: https://github.com/phoebusnetto/redmine_tracker_status_trigger
+  :repository: https://github.com/phoebusnetto/redmine_tracker_status_trigger
+redmine_trackmine:
+  :website: https://github.com/capita/redmine_trackmine
+  :repository: https://github.com/capita/redmine_trackmine
+transactions-personal-finances-cash-desk:
+  :website: https://www.easyredmine.com/software/project-finances
+ttm:
+  :website: https://noshutdown.ru/en/redmine-plugins-ttm/
+  :repository: https://github.com/noshutdown-ru/ttm
+tweetbook:
+  :website: http://buoyant.github.io/redmine_tweetbook
+  :repository: https://github.com/buoyant/redmine_tweetbook
+redmine_ultraviolet:
+  :website: http://github.com/epitron/redmine_ultraviolet
+  :repository: http://github.com/epitron/redmine_ultraviolet
+under_construction:
+  :website: http://rmplus.pro/en/redmine/plugins/under_construction
+  :repository: http://rmplus.pro/en/redmine/plugins/under_construction
+redmine_undev_watchers:
+  :website: https://github.com/Undev/redmine_undev_watchers
+  :repository: https://github.com/Undev/redmine_undev_watchers
+redmine_undev_git:
+  :website: https://github.com/Undev/redmine_undev_git
+  :repository: https://github.com/Undev/redmine_undev_git
+unread_issues:
+  :website: http://rmplus.pro/en/redmine/plugins/unread_issues
+  :repository: http://rmplus.pro/en/redmine/plugins/unread_issues
+updates_notifier:
+  :website: http://www.hiddentao.com/code
+  :repository: https://github.com/7citylearning/updates_notifier
+usability:
+  :website: http://rmplus.pro/en/redmine/plugins/usability
+  :repository: http://rmplus.pro/en/redmine/plugins/usability
+user_import_plugin:
+  :website: http://d.hatena.ne.jp/shrkw/20090611/redmine_user_import_en
+  :repository: https://github.com/shrkw/redmine_user_import
+custom_user_fields_user_group:
+  :website: https://github.com/jrupesh/custom_user_fields
+  :repository: https://github.com/jrupesh/custom_user_fields.git
+rm_user_mentions:
+  :website: http://rmplus.pro/en/redmine/plugins/user_mentions
+  :repository: http://rmplus.pro/en/redmine/plugins/user_mentions
+redmine_user_profiles:
+  :website: http://www.r-labs.org/projects/r-labs/wiki/User_Profiles_en
+  :repository: https://bitbucket.org/haru_iida/redmine_user_profiles
+redmine_user_status:
+  :website: https://github.com/bthesorceror/redmine_user_status
+  :repository: https://github.com/bthesorceror/redmine_user_status.git
+redmine_user_specific_theme:
+  :website: https://github.com/Undev/redmine_user_specific_theme
+  :repository: https://github.com/Undev/redmine_user_specific_theme
+redmine_custom_field_users: {}
+users_performance:
+  :website: https://github.com/alperenbozkurt/redmine_users_performance
+  :repository: https://github.com/alperenbozkurt/redmine_users_performance
+redmine_users_xls_impex:
+  :website: http://www.redmine.org/boards/3/topics/25342
+usersnap:
+  :website: https://usersnap.com/redmine
+vault:
+  :website: https://noshutdown.ru/en/redmine-plugins-vault/
+  :repository: https://github.com/noshutdown-ru/vault
+version-burndown-charts:
+  :website: http://daipresents.com/2010/redmine_version_burndown_charts_plugin_release/
+  :repository: https://github.com/daipresents/redmine_version_burndown_charts
+version_status_filter:
+  :website: https://github.com/javiferrer/redmine_version_status_filter
+  :repository: https://github.com/javiferrer/redmine_version_status_filter
+version_time_control:
+  :website: http://www.trium-agency.fr
+  :repository: https://github.com/misterfifi1/version_time_control
+redmine_view_customize:
+  :website: https://github.com/onozaty/redmine-view-customize
+  :repository: https://github.com/onozaty/redmine-view-customize
+vote_on_issues:
+  :website: https://github.com/ojde/redmine-vote_on_issues-plugin
+  :repository: https://github.com/ojde/redmine-vote_on_issues-plugin
+watcher_groups:
+  :website: http://www.geishatokyo.com/
+  :repository: https://github.com/yyuu/redmine_watcher_groups
+watcher_sellection_by_group:
+  :website: https://github.com/alvila/redmine_watchers_by_group
+  :repository: https://github.com/alvila/redmine_watchers_by_group
+watcher_sellection_by_role:
+  :website: http://github.com/alvila/redmine_watchers_by_role
+  :repository: http://github.com/alvila/redmine_watchers_by_role
+wbs-plugin:
+  :website: https://www.easyredmine.com/redmine-wbs-plugin
+redmine_webdav:
+  :website: http://github.com/amartel/redmine_webdav
+  :repository: git://github.com/amartel/redmine_webdav.git
+welcome_picture:
+  :website: http://welcome-picture.devbert.de/
+  :repository: https://github.com/berti92/welcome_picture
+redmine_whining:
+  :website: http://redmine.debuntu.org/projects/redmine-whining/wiki
+  :repository: http://github.com/chantra/redmine_whining
+redmine_wiki_backlinks:
+  :repository: https://github.com/bluezio/redmine_wiki_backlinks
+redmine_wikicipher:
+  :website: https://github.com/keeps/redmine_wikicipher
+  :repository: https://github.com/keeps/redmine_wikicipher
+redmine_wiki_encryptor:
+  :website: http://centos-admin.ru
+  :repository: https://github.com/olemskoi/redmine_wiki_encryptor.git
+redmine_wiki_extensions:
+  :website: http://www.r-labs.org/projects/r-labs/wiki/Wiki_Extensions_en
+  :repository: https://github.com/haru/redmine_wiki_extensions
+wiki_external:
+  :website: https://github.com/nutso/redmine-plugin-wiki-external
+  :repository: https://github.com/nutso/redmine-plugin-wiki-external
+wiki-external-filter:
+  :website: http://www.logicmatter.com
+  :repository: https://github.com/johnson-logicmatter/wiki_external_filter
+wiki_gchart_formula:
+  :website: https://github.com/masamitsu-murase/redmine_wiki_gchart_formula
+  :repository: https://github.com/masamitsu-murase/redmine_wiki_gchart_formula.git
+wiki_html_utility:
+  :website: http://bit.ly/r8iJyp
+  :repository: https://github.com/mexitek/redmine_wiki_html_util
+wiki_issue_fields:
+  :website: www.seasidetech.net
+  :repository: https://github.com/sbriand/redmine_wiki_issue_fields
+redmine_wiki_lists:
+  :website: http://www.r-labs.org/projects/wiki_lists/wiki/Wiki_Lists_en
+  :repository: https://github.com/tkusukawa/redmine_wiki_lists
+redmine_wiki_notes:
+  :website: https://github.com/dseifert/redmine_wiki_notes
+  :repository: git://github.com/dseifert/redmine_wiki_notes.git
+redmine_sidebar_toc_pt:
+  :website: https://github.com/gilbertf/redmine_sidebar_toc_pt
+  :repository: https://github.com/gilbertf/redmine_sidebar_toc_pt
+wiki-toc: {}
+redmine_wiki_files_toolbar:
+  :website: http://www.redmine.org/boards/3/topics/29179
+wiki_unc_link:
+  :website: http://bearmini.com/lang/en/redmine-plugins/macros-for-wiki/unc-link/
+  :repository: https://github.com/bearmini/redmine_wiki_unc
+wiking:
+  :website: http://projects.andriylesyuk.com/projects/wiking
+  :repository: http://subversion.andriylesyuk.com/wiking
+redmine_wordpress_update:
+  :repository: https://github.com/croemmich/redmine_wordpress_update
+redmine_work_time:
+  :website: http://www.r-labs.org/projects/worktime/wiki
+  :repository: https://github.com/tkusukawa/redmine_work_time
+redmine_workflow_hidden_fields:
+  :repository: https://github.com/alexwais/redmine_workflow_hidden_fields
+dnoise_workload:
+  :website: http://www.d-noise.net
+  :repository: https://github.com/dnoise/Redmine-Wordkload-Dnoise
+redmine_workload:
+  :website: http://www.sevenstax.de
+  :repository: https://github.com/JostBaron/redmine_workload
+workload-statistic-notificator:
+  :website: https://github.com/DefaultValue/redmine-workload-statistic-notificator
+  :repository: https://github.com/DefaultValue/redmine-workload-statistic-notificator
+worklogs:
+  :website: https://github.com/IceskYsl/worklogs
+  :repository: https://github.com/IceskYsl/worklogs
