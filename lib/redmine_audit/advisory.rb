@@ -2,7 +2,7 @@ module RedmineAudit
   # Redmine/Redmine plugin advisory
   #
   # ex)  Advisory.new('High', 'http://someurl.example.com',
-  #                   [Gem::Requirement], [Gem::Requirement], nil, 7.5)
+  #                   [Gem::Requirement], [Gem::Requirement], 'CVE-XXXX-XXXX', nil, 7.5)
   Advisory = Struct.new(:severity,
                         :details,
                         :external_references,
@@ -13,6 +13,9 @@ module RedmineAudit
                    unaffected_versions, fixed_versions, id, cvss_v2, cvss_v3)
       super
       self.severity = cvss_to_severity if self.severity.nil?
+      [:external_references, :unaffected_versions, :fixed_versions].each do |attr|
+        self[attr] = [] if self[attr].nil?
+      end
     end
 
     # Checks whether the version is not affected by the advisory.
