@@ -24,7 +24,7 @@ $ cd /path/to/redmine/plugins && curl -L https://github.com/sho-h/redmine_audit/
 
 Remove above line from your Redmine's Gemfile.local.
 
-And remove file(s) this gem installed(or you cloned).
+And remove file(s) this gem installed(or you extracted).
 
 ```
 $ cd /path/to/redmine/plugins && rm -rf ./redmine_audit
