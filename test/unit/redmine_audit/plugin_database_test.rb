@@ -1,6 +1,6 @@
 require 'test_helper'
 require 'test/unit'
-require 'test/unit/rr'
+require 'mocha/test_unit'
 require 'redmine_audit/plugin_database'
 
 begin
@@ -52,7 +52,7 @@ module RedmineAudit
     setup do
       @database = PluginDatabase.new
       path = File.expand_path('../../../data/plugin_advisories.yml', __dir__)
-      mock(@database).fetch_advisory_data { File.read(path) }
+      @database.stubs(:fetch_advisory_data).returns(File.read(path))
     end
 
     teardown do
