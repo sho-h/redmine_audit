@@ -1,6 +1,6 @@
 require 'test_helper'
 require 'test/unit'
-require 'test/unit/rr'
+require 'mocha/test_unit'
 require 'redmine_audit/database'
 
 module RedmineAudit
@@ -8,7 +8,7 @@ module RedmineAudit
     setup do
       @database = Database.new
       path = File.expand_path('../../data/Security_Advisories', __dir__)
-      mock(@database).fetch_advisory_data { File.read(path) }
+      @database.stubs(:fetch_advisory_data).returns(File.read(path))
     end
 
     test 'compare versions with >=' do
