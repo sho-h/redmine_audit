@@ -1,8 +1,22 @@
+sudo: required
 language: ruby
-rvm:
- - 2.2
- - 2.3
- - 2.4
+services:
+  - docker
+env:
+  - RUBY_VER=2.6.0-preview2 REDMINE_VER=master
+  - RUBY_VER=2.6.0-preview2 REDMINE_VER=3.4.6
+  - RUBY_VER=2.5 REDMINE_VER=master
+  - RUBY_VER=2.5 REDMINE_VER=3.4.6
+  - RUBY_VER=2.4 REDMINE_VER=master
+  - RUBY_VER=2.4 REDMINE_VER=3.4.6
+  - RUBY_VER=2.3 REDMINE_VER=master
+  - RUBY_VER=2.3 REDMINE_VER=3.4.6
+  - RUBY_VER=2.3 REDMINE_VER=3.3.8
+before_install:
+  - docker build -t sho-h/redmine_audit:${RUBY_VER} --build-arg RUBY_VER=${RUBY_VER} --file=Dockerfile.travis .
+script:
+  # - bundle exec rake test
+  - docker run -e REDMINE_VER=${REDMINE_VER} -e BRANCH=$(git rev-parse --abbrev-ref HEAD) sho-h/redmine_audit:${RUBY_VER}
 notifications:
   email:
     recipients:
