@@ -544,7 +544,7 @@ redmine_gems:
   :website: http://www.ultragreen.net/projects/redmine-gems
   :repository: http://www.ultragreen.net/projects/redmine-gems/repository
 gist:
-  :website: 'https://github.com/dergachev/redmine_gist '
+  :website: https://github.com/dergachev/redmine_gist
   :repository: https://github.com/dergachev/redmine_gist
 redmine_git_remote:
   :website: https://github.com/dergachev/redmine_git_remote
