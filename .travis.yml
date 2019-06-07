@@ -3,14 +3,14 @@ language: ruby
 services:
   - docker
 env:
-  - RUBY_VER=2.6-rc REDMINE_VER=master
-  - RUBY_VER=2.6-rc REDMINE_VER=4.0.0
-  - RUBY_VER=2.6-rc REDMINE_VER=3.4-stable
+  - RUBY_VER=2.6 REDMINE_VER=master
+  - RUBY_VER=2.6 REDMINE_VER=4.0-stable
+  - RUBY_VER=2.6 REDMINE_VER=3.4-stable
   - RUBY_VER=2.5 REDMINE_VER=master
-  - RUBY_VER=2.5 REDMINE_VER=4.0.0
+  - RUBY_VER=2.5 REDMINE_VER=4.0-stable
   - RUBY_VER=2.5 REDMINE_VER=3.4-stable
   - RUBY_VER=2.4 REDMINE_VER=master
-  - RUBY_VER=2.4 REDMINE_VER=4.0.0
+  - RUBY_VER=2.4 REDMINE_VER=4.0-stable
   - RUBY_VER=2.4 REDMINE_VER=3.4-stable
   - RUBY_VER=2.3 REDMINE_VER=master
   - RUBY_VER=2.3 REDMINE_VER=3.4-stable
