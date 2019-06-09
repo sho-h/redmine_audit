@@ -6,4 +6,5 @@ Redmine::Plugin.register :redmine_audit do
   requires_redmine version_or_higher: '3.3.0'
   url 'https://github.com/sho-h/redmine_audit/'
   author_url 'https://github.com/sho-h/'
+  directory __dir__
 end

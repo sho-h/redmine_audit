@@ -41,7 +41,7 @@ rescue LoadError
         @id = id.to_sym
       end
 
-      def_field :name, :version
+      def_field :name, :version, :directory
       attr_reader :id
     end
   end
@@ -62,7 +62,11 @@ module RedmineAudit
     test 'compare versions with vulnerable plugin' do
       _ver = '0.6.0'
       _name = 'Redmine Git Hosting Plugin'
-      Redmine::Plugin.register(:redmine_git_hosting) { version _ver; name _name }
+      Redmine::Plugin.register(:redmine_git_hosting) do
+        version _ver
+        name _name
+        directory __dir__
+      end
       plugin, advisories = *@database.advisories.first
       assert_equal('Redmine Git Hosting Plugin', plugin.name)
       assert_equal('CVE-2013-4663', advisories[0].id)
@@ -73,7 +77,11 @@ module RedmineAudit
     test 'compare versions with not vulnerable plugin' do
       _ver = '1.0.0'
       _name = 'Redmine Git Hosting Plugin'
-      Redmine::Plugin.register(:redmine_git_hosting) { version _ver; name _name }
+      Redmine::Plugin.register(:redmine_git_hosting) do
+        version _ver
+        name _name
+        directory __dir__
+      end
       assert_equal({}, @database.advisories)
     end
   end
