@@ -10,7 +10,7 @@ RUN apt update -y && \
     apt upgrade -y && \
     apt install -y libcurl4-openssl-dev libssl-dev curl git-core build-essential bison zlib1g-dev libssl-dev libxml2-dev libxml2-dev sqlite3 libsqlite3-dev autotools-dev libxslt1-dev libyaml-0-2 autoconf automake libreadline6-dev libyaml-dev libtool libicu-dev cmake tzdata && \
     apt clean
-RUN gem install bundler
+RUN gem list | grep bundler || gem install bundler
 ADD config/database.redmine.sqlite3.yml /database.yml
 ADD scripts/run_travis_image.sh /
 CMD /run_travis_image.sh
